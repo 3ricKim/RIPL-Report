@@ -57,7 +57,7 @@ class DomVDescMode(InteractionMode):
             f"\033[35mplanning_request:\n{print_limited_json(planning_request, limit=10000)}")
         print("\033[0m")
         planning_response, error_message = await self.text_model.request(planning_request)
-        return planning_response, error_message, None, None
+        return planning_response, error_message, None, None, None
 
 
 class VisionToDomMode(InteractionMode):
@@ -135,7 +135,7 @@ class VisionToDomMode(InteractionMode):
         if attempt == max_retries - 1:
             print("Max retries of vision_act reached. Unable to proceed.")
 
-        return planning_response, error_message, planning_response_thought, planning_response_get
+        return planning_response, error_message, planning_response_thought, planning_response_get, None
 
 
 class DVMode(InteractionMode):
@@ -150,7 +150,7 @@ class DVMode(InteractionMode):
             f"\033[32mplanning_request:\n{print_limited_json(planning_request, limit=1000)}")
         print("\033[0m")
         planning_response, error_message = await self.visual_model.request(planning_request)
-        return planning_response, error_message, None, None
+        return planning_response, error_message, None, None, None
 
 
 class VisionMode(InteractionMode):
@@ -164,7 +164,7 @@ class VisionMode(InteractionMode):
         print("\033[0m")
         logger.info("\033[32m%s\033[0m", planning_request)
         planning_response, error_message = await self.visual_model.request(planning_request)
-        return planning_response, error_message, None, None
+        return planning_response, error_message, None, None, None
 
 
 class Planning:
@@ -184,6 +184,7 @@ class Planning:
 
         gpt35 = GPTGenerator(model="gpt-3.5-turbo")
         gpt4v = GPTGenerator(model="gpt-4-turbo")
+        gemini = GeminiGenerator(model="gemini-1.5-flash")
 
         all_json_models = config["model"]["json_models"]
         is_json_response = config["model"]["json_model_response"]

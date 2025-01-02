@@ -441,8 +441,8 @@ async def run_task(
                 continue
 
         if out_put:
-            planning_input_token_count += out_put.get("planning_token_count", [0, 0])[0]
-            planning_output_token_count += out_put.get("planning_token_count", [0, 0])[1]
+            # planning_input_token_count += out_put.get("planning_token_count", [0, 0])[0]
+            # planning_output_token_count += out_put.get("planning_token_count", [0, 0])[1]
             each_step_dict = {}
             each_step_dict["step_index"] = step_index
             each_step_dict["dict_result"] = out_put
@@ -531,7 +531,7 @@ async def run_task(
                 vision_reward = await env.capture()
                 save_screenshot(mode=mode, record_time=record_time, task_name=task_name,
                                 step_number=num_steps, description="reward",
-                                screenshot_base64=vision_reward, task_uuid=task_uuid)
+                                screenshot_base64=vision_reward, task_name_id=task_uuid)
                 is_valid, message = is_valid_base64(vision_reward)
                 if not is_valid:
                     invalid_vision_reward_num += 1

@@ -39,7 +39,7 @@ def validate_config(config, observation_mode, global_reward_mode, observation_mo
     all_json_models = config['model']['json_models']
     interaction_mode = config['steps']['interaction_mode']
 
-    if observation_mode not in ["dom", "d_v", "dom_v_desc"]:
+    if observation_mode not in ["dom", "d_v", "dom_v_desc", "vision"]:
         logger.error(
             "observation mode is not correctly defined! Must be one of: dom, d_v, dom_v_desc.")
         exit()
@@ -213,7 +213,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Run the web agent in different modes.")
     parser.add_argument("--mode",
-        choices=["dom", "d_v", "dom_v_desc"],
+        choices=["dom", "d_v", "dom_v_desc", "vision"],
         default="dom",
         help="Choose the observation mode: dom, d_v, or dom_v_desc."
     )

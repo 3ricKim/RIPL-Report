@@ -222,6 +222,7 @@ class D_VObservationPromptConstructor(BasePromptConstructor):
         is_valid, message = is_valid_base64(
             observation_VforD)
         print("prompt_constructor.py D_VObservationPromptConstructor:", message, "\n")
+        print(user_request, previous_trace, observation, "OBS VFORD", observation_VforD, feedback, status_description)
         rendered_prompt = Template(self.prompt_user).render(
             user_request=user_request)
         prompt_elements = [{"type": "text", "text": rendered_prompt}]
