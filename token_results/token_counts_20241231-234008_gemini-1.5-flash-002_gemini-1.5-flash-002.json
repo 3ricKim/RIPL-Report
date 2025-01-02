@@ -1,0 +1,212 @@
+{
+    "calls": [
+        {
+            "task_name": "Find the store location and hours of the closest Gamestop to zip code 90028 and set as home store on gamestop",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1158,
+                        "planning_output_token_count": 133,
+                        "planning_token_count": 1291,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1158,
+                        "output_token_count": 133,
+                        "token_count": 1291
+                    },
+                    {
+                        "planning_input_token_count": 6274,
+                        "planning_output_token_count": 101,
+                        "planning_token_count": 6375,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 6274,
+                        "output_token_count": 101,
+                        "token_count": 6375
+                    },
+                    {
+                        "planning_input_token_count": 1297,
+                        "planning_output_token_count": 154,
+                        "planning_token_count": 1451,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1297,
+                        "output_token_count": 154,
+                        "token_count": 1451
+                    },
+                    {
+                        "planning_input_token_count": 1517,
+                        "planning_output_token_count": 157,
+                        "planning_token_count": 1674,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1517,
+                        "output_token_count": 157,
+                        "token_count": 1674
+                    },
+                    {
+                        "planning_input_token_count": 4443,
+                        "planning_output_token_count": 149,
+                        "planning_token_count": 4592,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4443,
+                        "output_token_count": 149,
+                        "token_count": 4592
+                    },
+                    {
+                        "planning_input_token_count": 4522,
+                        "planning_output_token_count": 253,
+                        "planning_token_count": 4775,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4522,
+                        "output_token_count": 253,
+                        "token_count": 4775
+                    },
+                    {
+                        "planning_input_token_count": 4658,
+                        "planning_output_token_count": 205,
+                        "planning_token_count": 4863,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4658,
+                        "output_token_count": 205,
+                        "token_count": 4863
+                    },
+                    {
+                        "planning_input_token_count": 4792,
+                        "planning_output_token_count": 204,
+                        "planning_token_count": 4996,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4792,
+                        "output_token_count": 204,
+                        "token_count": 4996
+                    },
+                    {
+                        "planning_input_token_count": 4925,
+                        "planning_output_token_count": 204,
+                        "planning_token_count": 5129,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4925,
+                        "output_token_count": 204,
+                        "token_count": 5129
+                    },
+                    {
+                        "planning_input_token_count": 5058,
+                        "planning_output_token_count": 200,
+                        "planning_token_count": 5258,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5058,
+                        "output_token_count": 200,
+                        "token_count": 5258
+                    },
+                    {
+                        "planning_input_token_count": 5186,
+                        "planning_output_token_count": 209,
+                        "planning_token_count": 5395,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5186,
+                        "output_token_count": 209,
+                        "token_count": 5395
+                    },
+                    {
+                        "planning_input_token_count": 5320,
+                        "planning_output_token_count": 192,
+                        "planning_token_count": 5512,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5320,
+                        "output_token_count": 192,
+                        "token_count": 5512
+                    },
+                    {
+                        "planning_input_token_count": 5437,
+                        "planning_output_token_count": 202,
+                        "planning_token_count": 5639,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5437,
+                        "output_token_count": 202,
+                        "token_count": 5639
+                    },
+                    {
+                        "planning_input_token_count": 5564,
+                        "planning_output_token_count": 199,
+                        "planning_token_count": 5763,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5564,
+                        "output_token_count": 199,
+                        "token_count": 5763
+                    },
+                    {
+                        "planning_input_token_count": 5690,
+                        "planning_output_token_count": 201,
+                        "planning_token_count": 5891,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5690,
+                        "output_token_count": 201,
+                        "token_count": 5891
+                    },
+                    {
+                        "planning_input_token_count": 5816,
+                        "planning_output_token_count": 204,
+                        "planning_token_count": 6020,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5816,
+                        "output_token_count": 204,
+                        "token_count": 6020
+                    },
+                    {
+                        "planning_input_token_count": 5949,
+                        "planning_output_token_count": 198,
+                        "planning_token_count": 6147,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5949,
+                        "output_token_count": 198,
+                        "token_count": 6147
+                    }
+                ],
+                "steps_token_counts": 80771,
+                "steps_planning_input_token_counts": 77606,
+                "steps_planning_output_token_counts": 3165,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 77606,
+                "steps_output_token_counts": 3165
+            }
+        }
+    ],
+    "total_planning_input_tokens": 77606,
+    "total_planning_output_tokens": 3165,
+    "total_reward_input_tokens": 0,
+    "total_reward_output_tokens": 0,
+    "total_input_tokens": 77606,
+    "total_output_tokens": 3165,
+    "total_tokens": 80771
+}

@@ -1,0 +1,394 @@
+{
+    "calls": [
+        {
+            "task_name": "Find the store location and hours of the closest Gamestop to zip code 90028 and set as home store on gamestop",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1158,
+                        "planning_output_token_count": 98,
+                        "planning_token_count": 1256,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1158,
+                        "output_token_count": 98,
+                        "token_count": 1256
+                    },
+                    {
+                        "planning_input_token_count": 6239,
+                        "planning_output_token_count": 108,
+                        "planning_token_count": 6347,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 6239,
+                        "output_token_count": 108,
+                        "token_count": 6347
+                    },
+                    {
+                        "planning_input_token_count": 1304,
+                        "planning_output_token_count": 140,
+                        "planning_token_count": 1444,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1304,
+                        "output_token_count": 140,
+                        "token_count": 1444
+                    },
+                    {
+                        "planning_input_token_count": 1476,
+                        "planning_output_token_count": 161,
+                        "planning_token_count": 1637,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1476,
+                        "output_token_count": 161,
+                        "token_count": 1637
+                    },
+                    {
+                        "planning_input_token_count": 3528,
+                        "planning_output_token_count": 149,
+                        "planning_token_count": 3677,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3528,
+                        "output_token_count": 149,
+                        "token_count": 3677
+                    },
+                    {
+                        "planning_input_token_count": 3627,
+                        "planning_output_token_count": 179,
+                        "planning_token_count": 3806,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3627,
+                        "output_token_count": 179,
+                        "token_count": 3806
+                    },
+                    {
+                        "planning_input_token_count": 3758,
+                        "planning_output_token_count": 149,
+                        "planning_token_count": 3907,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3758,
+                        "output_token_count": 149,
+                        "token_count": 3907
+                    },
+                    {
+                        "planning_input_token_count": 1944,
+                        "planning_output_token_count": 223,
+                        "planning_token_count": 2167,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1944,
+                        "output_token_count": 223,
+                        "token_count": 2167
+                    },
+                    {
+                        "planning_input_token_count": 4644,
+                        "planning_output_token_count": 217,
+                        "planning_token_count": 4861,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4644,
+                        "output_token_count": 217,
+                        "token_count": 4861
+                    },
+                    {
+                        "planning_input_token_count": 4732,
+                        "planning_output_token_count": 290,
+                        "planning_token_count": 5022,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4732,
+                        "output_token_count": 290,
+                        "token_count": 5022
+                    },
+                    {
+                        "planning_input_token_count": 4821,
+                        "planning_output_token_count": 319,
+                        "planning_token_count": 5140,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4821,
+                        "output_token_count": 319,
+                        "token_count": 5140
+                    },
+                    {
+                        "planning_input_token_count": 4971,
+                        "planning_output_token_count": 313,
+                        "planning_token_count": 5284,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4971,
+                        "output_token_count": 313,
+                        "token_count": 5284
+                    },
+                    {
+                        "planning_input_token_count": 5105,
+                        "planning_output_token_count": 348,
+                        "planning_token_count": 5453,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5105,
+                        "output_token_count": 348,
+                        "token_count": 5453
+                    },
+                    {
+                        "planning_input_token_count": 5271,
+                        "planning_output_token_count": 296,
+                        "planning_token_count": 5567,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5271,
+                        "output_token_count": 296,
+                        "token_count": 5567
+                    },
+                    {
+                        "planning_input_token_count": 5423,
+                        "planning_output_token_count": 310,
+                        "planning_token_count": 5733,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5423,
+                        "output_token_count": 310,
+                        "token_count": 5733
+                    },
+                    {
+                        "planning_input_token_count": 5575,
+                        "planning_output_token_count": 326,
+                        "planning_token_count": 5901,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5575,
+                        "output_token_count": 326,
+                        "token_count": 5901
+                    },
+                    {
+                        "planning_input_token_count": 5726,
+                        "planning_output_token_count": 329,
+                        "planning_token_count": 6055,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5726,
+                        "output_token_count": 329,
+                        "token_count": 6055
+                    }
+                ],
+                "steps_token_counts": 73257,
+                "steps_planning_input_token_counts": 69302,
+                "steps_planning_output_token_counts": 3955,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 69302,
+                "steps_output_token_counts": 3955
+            }
+        },
+        {
+            "task_name": "Compare available plans for the AeroAPI on flightaware",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1143,
+                        "planning_output_token_count": 85,
+                        "planning_token_count": 1228,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1143,
+                        "output_token_count": 85,
+                        "token_count": 1228
+                    },
+                    {
+                        "planning_input_token_count": 4889,
+                        "planning_output_token_count": 96,
+                        "planning_token_count": 4985,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4889,
+                        "output_token_count": 96,
+                        "token_count": 4985
+                    }
+                ],
+                "steps_token_counts": 6213,
+                "steps_planning_input_token_counts": 6032,
+                "steps_planning_output_token_counts": 181,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 6032,
+                "steps_output_token_counts": 181
+            }
+        },
+        {
+            "task_name": "Give a 10 rating to The Terminator II: Judgement Day on imdb",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1148,
+                        "planning_output_token_count": 140,
+                        "planning_token_count": 1288,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1148,
+                        "output_token_count": 140,
+                        "token_count": 1288
+                    },
+                    {
+                        "planning_input_token_count": 7540,
+                        "planning_output_token_count": 120,
+                        "planning_token_count": 7660,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 7540,
+                        "output_token_count": 120,
+                        "token_count": 7660
+                    },
+                    {
+                        "planning_input_token_count": 7645,
+                        "planning_output_token_count": 122,
+                        "planning_token_count": 7767,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 7645,
+                        "output_token_count": 122,
+                        "token_count": 7767
+                    },
+                    {
+                        "planning_input_token_count": 7839,
+                        "planning_output_token_count": 109,
+                        "planning_token_count": 7948,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 7839,
+                        "output_token_count": 109,
+                        "token_count": 7948
+                    },
+                    {
+                        "planning_input_token_count": 7918,
+                        "planning_output_token_count": 112,
+                        "planning_token_count": 8030,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 7918,
+                        "output_token_count": 112,
+                        "token_count": 8030
+                    },
+                    {
+                        "planning_input_token_count": 7998,
+                        "planning_output_token_count": 111,
+                        "planning_token_count": 8109,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 7998,
+                        "output_token_count": 111,
+                        "token_count": 8109
+                    },
+                    {
+                        "planning_input_token_count": 8077,
+                        "planning_output_token_count": 111,
+                        "planning_token_count": 8188,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 8077,
+                        "output_token_count": 111,
+                        "token_count": 8188
+                    },
+                    {
+                        "planning_input_token_count": 8156,
+                        "planning_output_token_count": 109,
+                        "planning_token_count": 8265,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 8156,
+                        "output_token_count": 109,
+                        "token_count": 8265
+                    },
+                    {
+                        "planning_input_token_count": 8235,
+                        "planning_output_token_count": 109,
+                        "planning_token_count": 8344,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 8235,
+                        "output_token_count": 109,
+                        "token_count": 8344
+                    },
+                    {
+                        "planning_input_token_count": 8314,
+                        "planning_output_token_count": 109,
+                        "planning_token_count": 8423,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 8314,
+                        "output_token_count": 109,
+                        "token_count": 8423
+                    },
+                    {
+                        "planning_input_token_count": 8393,
+                        "planning_output_token_count": 111,
+                        "planning_token_count": 8504,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 8393,
+                        "output_token_count": 111,
+                        "token_count": 8504
+                    },
+                    {
+                        "planning_input_token_count": 8472,
+                        "planning_output_token_count": 108,
+                        "planning_token_count": 8580,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 8472,
+                        "output_token_count": 108,
+                        "token_count": 8580
+                    }
+                ],
+                "steps_token_counts": 91106,
+                "steps_planning_input_token_counts": 89735,
+                "steps_planning_output_token_counts": 1371,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 89735,
+                "steps_output_token_counts": 1371
+            }
+        }
+    ],
+    "total_planning_input_tokens": 165069,
+    "total_planning_output_tokens": 5507,
+    "total_reward_input_tokens": 0,
+    "total_reward_output_tokens": 0,
+    "total_input_tokens": 165069,
+    "total_output_tokens": 5507,
+    "total_tokens": 170576
+}

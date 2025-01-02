@@ -1,0 +1,3027 @@
+{
+    "calls": [
+        {
+            "task_name": "Find the store location and hours of the closest Gamestop to zip code 90028 and set as home store on gamestop",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1158,
+                        "planning_output_token_count": 161,
+                        "planning_token_count": 1319,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1158,
+                        "output_token_count": 161,
+                        "token_count": 1319
+                    },
+                    {
+                        "planning_input_token_count": 6302,
+                        "planning_output_token_count": 100,
+                        "planning_token_count": 6402,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 6302,
+                        "output_token_count": 100,
+                        "token_count": 6402
+                    },
+                    {
+                        "planning_input_token_count": 1296,
+                        "planning_output_token_count": 154,
+                        "planning_token_count": 1450,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1296,
+                        "output_token_count": 154,
+                        "token_count": 1450
+                    },
+                    {
+                        "planning_input_token_count": 1543,
+                        "planning_output_token_count": 128,
+                        "planning_token_count": 1671,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1543,
+                        "output_token_count": 128,
+                        "token_count": 1671
+                    },
+                    {
+                        "planning_input_token_count": 3609,
+                        "planning_output_token_count": 111,
+                        "planning_token_count": 3720,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3609,
+                        "output_token_count": 111,
+                        "token_count": 3720
+                    },
+                    {
+                        "planning_input_token_count": 1717,
+                        "planning_output_token_count": 157,
+                        "planning_token_count": 1874,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1717,
+                        "output_token_count": 157,
+                        "token_count": 1874
+                    },
+                    {
+                        "planning_input_token_count": 3540,
+                        "planning_output_token_count": 162,
+                        "planning_token_count": 3702,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3540,
+                        "output_token_count": 162,
+                        "token_count": 3702
+                    },
+                    {
+                        "planning_input_token_count": 1971,
+                        "planning_output_token_count": 168,
+                        "planning_token_count": 2139,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1971,
+                        "output_token_count": 168,
+                        "token_count": 2139
+                    },
+                    {
+                        "planning_input_token_count": 3774,
+                        "planning_output_token_count": 157,
+                        "planning_token_count": 3931,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3774,
+                        "output_token_count": 157,
+                        "token_count": 3931
+                    },
+                    {
+                        "planning_input_token_count": 3110,
+                        "planning_output_token_count": 179,
+                        "planning_token_count": 3289,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3110,
+                        "output_token_count": 179,
+                        "token_count": 3289
+                    },
+                    {
+                        "planning_input_token_count": 3259,
+                        "planning_output_token_count": 163,
+                        "planning_token_count": 3422,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3259,
+                        "output_token_count": 163,
+                        "token_count": 3422
+                    },
+                    {
+                        "planning_input_token_count": 3392,
+                        "planning_output_token_count": 180,
+                        "planning_token_count": 3572,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3392,
+                        "output_token_count": 180,
+                        "token_count": 3572
+                    },
+                    {
+                        "planning_input_token_count": 3542,
+                        "planning_output_token_count": 163,
+                        "planning_token_count": 3705,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3542,
+                        "output_token_count": 163,
+                        "token_count": 3705
+                    },
+                    {
+                        "planning_input_token_count": 3675,
+                        "planning_output_token_count": 161,
+                        "planning_token_count": 3836,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3675,
+                        "output_token_count": 161,
+                        "token_count": 3836
+                    },
+                    {
+                        "planning_input_token_count": 3806,
+                        "planning_output_token_count": 160,
+                        "planning_token_count": 3966,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3806,
+                        "output_token_count": 160,
+                        "token_count": 3966
+                    },
+                    {
+                        "planning_input_token_count": 3936,
+                        "planning_output_token_count": 159,
+                        "planning_token_count": 4095,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3936,
+                        "output_token_count": 159,
+                        "token_count": 4095
+                    },
+                    {
+                        "planning_input_token_count": 4065,
+                        "planning_output_token_count": 159,
+                        "planning_token_count": 4224,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4065,
+                        "output_token_count": 159,
+                        "token_count": 4224
+                    }
+                ],
+                "steps_token_counts": 56317,
+                "steps_planning_input_token_counts": 53695,
+                "steps_planning_output_token_counts": 2622,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 53695,
+                "steps_output_token_counts": 2622
+            }
+        },
+        {
+            "task_name": "Compare available plans for the AeroAPI on flightaware",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1143,
+                        "planning_output_token_count": 89,
+                        "planning_token_count": 1232,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1143,
+                        "output_token_count": 89,
+                        "token_count": 1232
+                    },
+                    {
+                        "planning_input_token_count": 4893,
+                        "planning_output_token_count": 95,
+                        "planning_token_count": 4988,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4893,
+                        "output_token_count": 95,
+                        "token_count": 4988
+                    }
+                ],
+                "steps_token_counts": 6220,
+                "steps_planning_input_token_counts": 6036,
+                "steps_planning_output_token_counts": 184,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 6036,
+                "steps_output_token_counts": 184
+            }
+        },
+        {
+            "task_name": "Give a 10 rating to The Terminator II: Judgement Day on imdb",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1148,
+                        "planning_output_token_count": 130,
+                        "planning_token_count": 1278,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1148,
+                        "output_token_count": 130,
+                        "token_count": 1278
+                    },
+                    {
+                        "planning_input_token_count": 4009,
+                        "planning_output_token_count": 116,
+                        "planning_token_count": 4125,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4009,
+                        "output_token_count": 116,
+                        "token_count": 4125
+                    },
+                    {
+                        "planning_input_token_count": 2972,
+                        "planning_output_token_count": 119,
+                        "planning_token_count": 3091,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 2972,
+                        "output_token_count": 119,
+                        "token_count": 3091
+                    },
+                    {
+                        "planning_input_token_count": 7700,
+                        "planning_output_token_count": 131,
+                        "planning_token_count": 7831,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 7700,
+                        "output_token_count": 131,
+                        "token_count": 7831
+                    },
+                    {
+                        "planning_input_token_count": 7918,
+                        "planning_output_token_count": 118,
+                        "planning_token_count": 8036,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 7918,
+                        "output_token_count": 118,
+                        "token_count": 8036
+                    },
+                    {
+                        "planning_input_token_count": 8006,
+                        "planning_output_token_count": 124,
+                        "planning_token_count": 8130,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 8006,
+                        "output_token_count": 124,
+                        "token_count": 8130
+                    },
+                    {
+                        "planning_input_token_count": 8100,
+                        "planning_output_token_count": 130,
+                        "planning_token_count": 8230,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 8100,
+                        "output_token_count": 130,
+                        "token_count": 8230
+                    },
+                    {
+                        "planning_input_token_count": 8198,
+                        "planning_output_token_count": 124,
+                        "planning_token_count": 8322,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 8198,
+                        "output_token_count": 124,
+                        "token_count": 8322
+                    },
+                    {
+                        "planning_input_token_count": 8292,
+                        "planning_output_token_count": 124,
+                        "planning_token_count": 8416,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 8292,
+                        "output_token_count": 124,
+                        "token_count": 8416
+                    },
+                    {
+                        "planning_input_token_count": 8386,
+                        "planning_output_token_count": 124,
+                        "planning_token_count": 8510,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 8386,
+                        "output_token_count": 124,
+                        "token_count": 8510
+                    },
+                    {
+                        "planning_input_token_count": 8480,
+                        "planning_output_token_count": 126,
+                        "planning_token_count": 8606,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 8480,
+                        "output_token_count": 126,
+                        "token_count": 8606
+                    },
+                    {
+                        "planning_input_token_count": 8574,
+                        "planning_output_token_count": 126,
+                        "planning_token_count": 8700,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 8574,
+                        "output_token_count": 126,
+                        "token_count": 8700
+                    }
+                ],
+                "steps_token_counts": 83275,
+                "steps_planning_input_token_counts": 81783,
+                "steps_planning_output_token_counts": 1492,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 81783,
+                "steps_output_token_counts": 1492
+            }
+        },
+        {
+            "task_name": "Check the status of train S92 for any disruptions on new.mta.info.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1149,
+                        "planning_output_token_count": 117,
+                        "planning_token_count": 1266,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1149,
+                        "output_token_count": 117,
+                        "token_count": 1266
+                    },
+                    {
+                        "planning_input_token_count": 1284,
+                        "planning_output_token_count": 157,
+                        "planning_token_count": 1441,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1284,
+                        "output_token_count": 157,
+                        "token_count": 1441
+                    },
+                    {
+                        "planning_input_token_count": 1325,
+                        "planning_output_token_count": 176,
+                        "planning_token_count": 1501,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1325,
+                        "output_token_count": 176,
+                        "token_count": 1501
+                    },
+                    {
+                        "planning_input_token_count": 1556,
+                        "planning_output_token_count": 134,
+                        "planning_token_count": 1690,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1556,
+                        "output_token_count": 134,
+                        "token_count": 1690
+                    },
+                    {
+                        "planning_input_token_count": 1656,
+                        "planning_output_token_count": 107,
+                        "planning_token_count": 1763,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1656,
+                        "output_token_count": 107,
+                        "token_count": 1763
+                    },
+                    {
+                        "planning_input_token_count": 1729,
+                        "planning_output_token_count": 107,
+                        "planning_token_count": 1836,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1729,
+                        "output_token_count": 107,
+                        "token_count": 1836
+                    },
+                    {
+                        "planning_input_token_count": 1802,
+                        "planning_output_token_count": 142,
+                        "planning_token_count": 1944,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1802,
+                        "output_token_count": 142,
+                        "token_count": 1944
+                    },
+                    {
+                        "planning_input_token_count": 1909,
+                        "planning_output_token_count": 112,
+                        "planning_token_count": 2021,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1909,
+                        "output_token_count": 112,
+                        "token_count": 2021
+                    },
+                    {
+                        "planning_input_token_count": 1988,
+                        "planning_output_token_count": 156,
+                        "planning_token_count": 2144,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1988,
+                        "output_token_count": 156,
+                        "token_count": 2144
+                    },
+                    {
+                        "planning_input_token_count": 2110,
+                        "planning_output_token_count": 155,
+                        "planning_token_count": 2265,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 2110,
+                        "output_token_count": 155,
+                        "token_count": 2265
+                    }
+                ],
+                "steps_token_counts": 17871,
+                "steps_planning_input_token_counts": 16508,
+                "steps_planning_output_token_counts": 1363,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 16508,
+                "steps_output_token_counts": 1363
+            }
+        },
+        {
+            "task_name": "Check the status of your iPhone repair on apple.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1143,
+                        "planning_output_token_count": 101,
+                        "planning_token_count": 1244,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1143,
+                        "output_token_count": 101,
+                        "token_count": 1244
+                    },
+                    {
+                        "planning_input_token_count": 4163,
+                        "planning_output_token_count": 101,
+                        "planning_token_count": 4264,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4163,
+                        "output_token_count": 101,
+                        "token_count": 4264
+                    },
+                    {
+                        "planning_input_token_count": 3978,
+                        "planning_output_token_count": 103,
+                        "planning_token_count": 4081,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3978,
+                        "output_token_count": 103,
+                        "token_count": 4081
+                    }
+                ],
+                "steps_token_counts": 9589,
+                "steps_planning_input_token_counts": 9284,
+                "steps_planning_output_token_counts": 305,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 9284,
+                "steps_output_token_counts": 305
+            }
+        },
+        {
+            "task_name": "Open the page with a overview about the submission of releases on discogs",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1147,
+                        "planning_output_token_count": 110,
+                        "planning_token_count": 1257,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1147,
+                        "output_token_count": 110,
+                        "token_count": 1257
+                    },
+                    {
+                        "planning_input_token_count": 2703,
+                        "planning_output_token_count": 114,
+                        "planning_token_count": 2817,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 2703,
+                        "output_token_count": 114,
+                        "token_count": 2817
+                    }
+                ],
+                "steps_token_counts": 4074,
+                "steps_planning_input_token_counts": 3850,
+                "steps_planning_output_token_counts": 224,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 3850,
+                "steps_output_token_counts": 224
+            }
+        },
+        {
+            "task_name": "View the latest job openings in safety with a salary above 100k per annum, check the details, and apply on mbta.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1160,
+                        "planning_output_token_count": 130,
+                        "planning_token_count": 1290,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1160,
+                        "output_token_count": 130,
+                        "token_count": 1290
+                    },
+                    {
+                        "planning_input_token_count": 4716,
+                        "planning_output_token_count": 105,
+                        "planning_token_count": 4821,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4716,
+                        "output_token_count": 105,
+                        "token_count": 4821
+                    },
+                    {
+                        "planning_input_token_count": 3721,
+                        "planning_output_token_count": 113,
+                        "planning_token_count": 3834,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3721,
+                        "output_token_count": 113,
+                        "token_count": 3834
+                    },
+                    {
+                        "planning_input_token_count": 3910,
+                        "planning_output_token_count": 128,
+                        "planning_token_count": 4038,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3910,
+                        "output_token_count": 128,
+                        "token_count": 4038
+                    },
+                    {
+                        "planning_input_token_count": 4007,
+                        "planning_output_token_count": 141,
+                        "planning_token_count": 4148,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4007,
+                        "output_token_count": 141,
+                        "token_count": 4148
+                    },
+                    {
+                        "planning_input_token_count": 4145,
+                        "planning_output_token_count": 132,
+                        "planning_token_count": 4277,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4145,
+                        "output_token_count": 132,
+                        "token_count": 4277
+                    },
+                    {
+                        "planning_input_token_count": 4298,
+                        "planning_output_token_count": 154,
+                        "planning_token_count": 4452,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4298,
+                        "output_token_count": 154,
+                        "token_count": 4452
+                    },
+                    {
+                        "planning_input_token_count": 4423,
+                        "planning_output_token_count": 133,
+                        "planning_token_count": 4556,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4423,
+                        "output_token_count": 133,
+                        "token_count": 4556
+                    },
+                    {
+                        "planning_input_token_count": 4526,
+                        "planning_output_token_count": 138,
+                        "planning_token_count": 4664,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4526,
+                        "output_token_count": 138,
+                        "token_count": 4664
+                    },
+                    {
+                        "planning_input_token_count": 4670,
+                        "planning_output_token_count": 139,
+                        "planning_token_count": 4809,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4670,
+                        "output_token_count": 139,
+                        "token_count": 4809
+                    },
+                    {
+                        "planning_input_token_count": 4777,
+                        "planning_output_token_count": 146,
+                        "planning_token_count": 4923,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4777,
+                        "output_token_count": 146,
+                        "token_count": 4923
+                    },
+                    {
+                        "planning_input_token_count": 4884,
+                        "planning_output_token_count": 140,
+                        "planning_token_count": 5024,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4884,
+                        "output_token_count": 140,
+                        "token_count": 5024
+                    },
+                    {
+                        "planning_input_token_count": 4994,
+                        "planning_output_token_count": 144,
+                        "planning_token_count": 5138,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4994,
+                        "output_token_count": 144,
+                        "token_count": 5138
+                    },
+                    {
+                        "planning_input_token_count": 5118,
+                        "planning_output_token_count": 160,
+                        "planning_token_count": 5278,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5118,
+                        "output_token_count": 160,
+                        "token_count": 5278
+                    },
+                    {
+                        "planning_input_token_count": 5243,
+                        "planning_output_token_count": 151,
+                        "planning_token_count": 5394,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5243,
+                        "output_token_count": 151,
+                        "token_count": 5394
+                    },
+                    {
+                        "planning_input_token_count": 5367,
+                        "planning_output_token_count": 165,
+                        "planning_token_count": 5532,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5367,
+                        "output_token_count": 165,
+                        "token_count": 5532
+                    },
+                    {
+                        "planning_input_token_count": 5488,
+                        "planning_output_token_count": 116,
+                        "planning_token_count": 5604,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5488,
+                        "output_token_count": 116,
+                        "token_count": 5604
+                    },
+                    {
+                        "planning_input_token_count": 5600,
+                        "planning_output_token_count": 145,
+                        "planning_token_count": 5745,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5600,
+                        "output_token_count": 145,
+                        "token_count": 5745
+                    },
+                    {
+                        "planning_input_token_count": 5452,
+                        "planning_output_token_count": 166,
+                        "planning_token_count": 5618,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5452,
+                        "output_token_count": 166,
+                        "token_count": 5618
+                    },
+                    {
+                        "planning_input_token_count": 5596,
+                        "planning_output_token_count": 165,
+                        "planning_token_count": 5761,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5596,
+                        "output_token_count": 165,
+                        "token_count": 5761
+                    },
+                    {
+                        "planning_input_token_count": 5719,
+                        "planning_output_token_count": 165,
+                        "planning_token_count": 5884,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5719,
+                        "output_token_count": 165,
+                        "token_count": 5884
+                    },
+                    {
+                        "planning_input_token_count": 5772,
+                        "planning_output_token_count": 149,
+                        "planning_token_count": 5921,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5772,
+                        "output_token_count": 149,
+                        "token_count": 5921
+                    },
+                    {
+                        "planning_input_token_count": 5972,
+                        "planning_output_token_count": 160,
+                        "planning_token_count": 6132,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5972,
+                        "output_token_count": 160,
+                        "token_count": 6132
+                    },
+                    {
+                        "planning_input_token_count": 6100,
+                        "planning_output_token_count": 161,
+                        "planning_token_count": 6261,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 6100,
+                        "output_token_count": 161,
+                        "token_count": 6261
+                    }
+                ],
+                "steps_token_counts": 119104,
+                "steps_planning_input_token_counts": 115658,
+                "steps_planning_output_token_counts": 3446,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 115658,
+                "steps_output_token_counts": 3446
+            }
+        },
+        {
+            "task_name": "Add a e-gift card to bag of $100 for recipient John and email address abc@test.com from buckeye.foobar@gmail.com with message gift card on underarmour",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1168,
+                        "planning_output_token_count": 104,
+                        "planning_token_count": 1272,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1168,
+                        "output_token_count": 104,
+                        "token_count": 1272
+                    },
+                    {
+                        "planning_input_token_count": 11058,
+                        "planning_output_token_count": 114,
+                        "planning_token_count": 11172,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 11058,
+                        "output_token_count": 114,
+                        "token_count": 11172
+                    },
+                    {
+                        "planning_input_token_count": 11124,
+                        "planning_output_token_count": 127,
+                        "planning_token_count": 11251,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 11124,
+                        "output_token_count": 127,
+                        "token_count": 11251
+                    },
+                    {
+                        "planning_input_token_count": 11292,
+                        "planning_output_token_count": 154,
+                        "planning_token_count": 11446,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 11292,
+                        "output_token_count": 154,
+                        "token_count": 11446
+                    },
+                    {
+                        "planning_input_token_count": 11414,
+                        "planning_output_token_count": 144,
+                        "planning_token_count": 11558,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 11414,
+                        "output_token_count": 144,
+                        "token_count": 11558
+                    },
+                    {
+                        "planning_input_token_count": 11529,
+                        "planning_output_token_count": 144,
+                        "planning_token_count": 11673,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 11529,
+                        "output_token_count": 144,
+                        "token_count": 11673
+                    },
+                    {
+                        "planning_input_token_count": 11642,
+                        "planning_output_token_count": 126,
+                        "planning_token_count": 11768,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 11642,
+                        "output_token_count": 126,
+                        "token_count": 11768
+                    },
+                    {
+                        "planning_input_token_count": 11738,
+                        "planning_output_token_count": 171,
+                        "planning_token_count": 11909,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 11738,
+                        "output_token_count": 171,
+                        "token_count": 11909
+                    },
+                    {
+                        "planning_input_token_count": 11879,
+                        "planning_output_token_count": 162,
+                        "planning_token_count": 12041,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 11879,
+                        "output_token_count": 162,
+                        "token_count": 12041
+                    },
+                    {
+                        "planning_input_token_count": 12011,
+                        "planning_output_token_count": 162,
+                        "planning_token_count": 12173,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 12011,
+                        "output_token_count": 162,
+                        "token_count": 12173
+                    },
+                    {
+                        "planning_input_token_count": 12142,
+                        "planning_output_token_count": 129,
+                        "planning_token_count": 12271,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 12142,
+                        "output_token_count": 129,
+                        "token_count": 12271
+                    },
+                    {
+                        "planning_input_token_count": 12241,
+                        "planning_output_token_count": 159,
+                        "planning_token_count": 12400,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 12241,
+                        "output_token_count": 159,
+                        "token_count": 12400
+                    },
+                    {
+                        "planning_input_token_count": 12370,
+                        "planning_output_token_count": 160,
+                        "planning_token_count": 12530,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 12370,
+                        "output_token_count": 160,
+                        "token_count": 12530
+                    },
+                    {
+                        "planning_input_token_count": 12499,
+                        "planning_output_token_count": 160,
+                        "planning_token_count": 12659,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 12499,
+                        "output_token_count": 160,
+                        "token_count": 12659
+                    },
+                    {
+                        "planning_input_token_count": 12628,
+                        "planning_output_token_count": 159,
+                        "planning_token_count": 12787,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 12628,
+                        "output_token_count": 159,
+                        "token_count": 12787
+                    },
+                    {
+                        "planning_input_token_count": 12757,
+                        "planning_output_token_count": 169,
+                        "planning_token_count": 12926,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 12757,
+                        "output_token_count": 169,
+                        "token_count": 12926
+                    },
+                    {
+                        "planning_input_token_count": 12896,
+                        "planning_output_token_count": 156,
+                        "planning_token_count": 13052,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 12896,
+                        "output_token_count": 156,
+                        "token_count": 13052
+                    },
+                    {
+                        "planning_input_token_count": 13022,
+                        "planning_output_token_count": 134,
+                        "planning_token_count": 13156,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 13022,
+                        "output_token_count": 134,
+                        "token_count": 13156
+                    },
+                    {
+                        "planning_input_token_count": 13126,
+                        "planning_output_token_count": 159,
+                        "planning_token_count": 13285,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 13126,
+                        "output_token_count": 159,
+                        "token_count": 13285
+                    },
+                    {
+                        "planning_input_token_count": 13255,
+                        "planning_output_token_count": 149,
+                        "planning_token_count": 13404,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 13255,
+                        "output_token_count": 149,
+                        "token_count": 13404
+                    },
+                    {
+                        "planning_input_token_count": 13374,
+                        "planning_output_token_count": 168,
+                        "planning_token_count": 13542,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 13374,
+                        "output_token_count": 168,
+                        "token_count": 13542
+                    },
+                    {
+                        "planning_input_token_count": 13512,
+                        "planning_output_token_count": 186,
+                        "planning_token_count": 13698,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 13512,
+                        "output_token_count": 186,
+                        "token_count": 13698
+                    }
+                ],
+                "steps_token_counts": 261973,
+                "steps_planning_input_token_counts": 258677,
+                "steps_planning_output_token_counts": 3296,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 258677,
+                "steps_output_token_counts": 3296
+            }
+        },
+        {
+            "task_name": "Find a person by address Nice st - 1234, Good, FL on yellowpages",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1151,
+                        "planning_output_token_count": 96,
+                        "planning_token_count": 1247,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1151,
+                        "output_token_count": 96,
+                        "token_count": 1247
+                    },
+                    {
+                        "planning_input_token_count": 2325,
+                        "planning_output_token_count": 163,
+                        "planning_token_count": 2488,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 2325,
+                        "output_token_count": 163,
+                        "token_count": 2488
+                    },
+                    {
+                        "planning_input_token_count": 2386,
+                        "planning_output_token_count": 123,
+                        "planning_token_count": 2509,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 2386,
+                        "output_token_count": 123,
+                        "token_count": 2509
+                    },
+                    {
+                        "planning_input_token_count": 2543,
+                        "planning_output_token_count": 144,
+                        "planning_token_count": 2687,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 2543,
+                        "output_token_count": 144,
+                        "token_count": 2687
+                    },
+                    {
+                        "planning_input_token_count": 2657,
+                        "planning_output_token_count": 135,
+                        "planning_token_count": 2792,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 2657,
+                        "output_token_count": 135,
+                        "token_count": 2792
+                    },
+                    {
+                        "planning_input_token_count": 2764,
+                        "planning_output_token_count": 135,
+                        "planning_token_count": 2899,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 2764,
+                        "output_token_count": 135,
+                        "token_count": 2899
+                    },
+                    {
+                        "planning_input_token_count": 3779,
+                        "planning_output_token_count": 140,
+                        "planning_token_count": 3919,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3779,
+                        "output_token_count": 140,
+                        "token_count": 3919
+                    },
+                    {
+                        "planning_input_token_count": 3143,
+                        "planning_output_token_count": 123,
+                        "planning_token_count": 3266,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3143,
+                        "output_token_count": 123,
+                        "token_count": 3266
+                    },
+                    {
+                        "planning_input_token_count": 5211,
+                        "planning_output_token_count": 170,
+                        "planning_token_count": 5381,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5211,
+                        "output_token_count": 170,
+                        "token_count": 5381
+                    },
+                    {
+                        "planning_input_token_count": 5335,
+                        "planning_output_token_count": 199,
+                        "planning_token_count": 5534,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5335,
+                        "output_token_count": 199,
+                        "token_count": 5534
+                    },
+                    {
+                        "planning_input_token_count": 5487,
+                        "planning_output_token_count": 123,
+                        "planning_token_count": 5610,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5487,
+                        "output_token_count": 123,
+                        "token_count": 5610
+                    },
+                    {
+                        "planning_input_token_count": 5580,
+                        "planning_output_token_count": 123,
+                        "planning_token_count": 5703,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5580,
+                        "output_token_count": 123,
+                        "token_count": 5703
+                    },
+                    {
+                        "planning_input_token_count": 5673,
+                        "planning_output_token_count": 142,
+                        "planning_token_count": 5815,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5673,
+                        "output_token_count": 142,
+                        "token_count": 5815
+                    },
+                    {
+                        "planning_input_token_count": 5785,
+                        "planning_output_token_count": 144,
+                        "planning_token_count": 5929,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5785,
+                        "output_token_count": 144,
+                        "token_count": 5929
+                    },
+                    {
+                        "planning_input_token_count": 5899,
+                        "planning_output_token_count": 144,
+                        "planning_token_count": 6043,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5899,
+                        "output_token_count": 144,
+                        "token_count": 6043
+                    },
+                    {
+                        "planning_input_token_count": 6013,
+                        "planning_output_token_count": 141,
+                        "planning_token_count": 6154,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 6013,
+                        "output_token_count": 141,
+                        "token_count": 6154
+                    },
+                    {
+                        "planning_input_token_count": 6124,
+                        "planning_output_token_count": 144,
+                        "planning_token_count": 6268,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 6124,
+                        "output_token_count": 144,
+                        "token_count": 6268
+                    },
+                    {
+                        "planning_input_token_count": 6238,
+                        "planning_output_token_count": 144,
+                        "planning_token_count": 6382,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 6238,
+                        "output_token_count": 144,
+                        "token_count": 6382
+                    }
+                ],
+                "steps_token_counts": 80626,
+                "steps_planning_input_token_counts": 78093,
+                "steps_planning_output_token_counts": 2533,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 78093,
+                "steps_output_token_counts": 2533
+            }
+        },
+        {
+            "task_name": "Check my AMC gift card balance with gift card number 87654321 and pin number 9753 on amctheatres.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1159,
+                        "planning_output_token_count": 122,
+                        "planning_token_count": 1281,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1159,
+                        "output_token_count": 122,
+                        "token_count": 1281
+                    },
+                    {
+                        "planning_input_token_count": 3160,
+                        "planning_output_token_count": 124,
+                        "planning_token_count": 3284,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3160,
+                        "output_token_count": 124,
+                        "token_count": 3284
+                    },
+                    {
+                        "planning_input_token_count": 1334,
+                        "planning_output_token_count": 115,
+                        "planning_token_count": 1449,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1334,
+                        "output_token_count": 115,
+                        "token_count": 1449
+                    },
+                    {
+                        "planning_input_token_count": 1509,
+                        "planning_output_token_count": 121,
+                        "planning_token_count": 1630,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1509,
+                        "output_token_count": 121,
+                        "token_count": 1630
+                    },
+                    {
+                        "planning_input_token_count": 1600,
+                        "planning_output_token_count": 120,
+                        "planning_token_count": 1720,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1600,
+                        "output_token_count": 120,
+                        "token_count": 1720
+                    },
+                    {
+                        "planning_input_token_count": 1690,
+                        "planning_output_token_count": 121,
+                        "planning_token_count": 1811,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1690,
+                        "output_token_count": 121,
+                        "token_count": 1811
+                    },
+                    {
+                        "planning_input_token_count": 1781,
+                        "planning_output_token_count": 121,
+                        "planning_token_count": 1902,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1781,
+                        "output_token_count": 121,
+                        "token_count": 1902
+                    },
+                    {
+                        "planning_input_token_count": 1872,
+                        "planning_output_token_count": 120,
+                        "planning_token_count": 1992,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1872,
+                        "output_token_count": 120,
+                        "token_count": 1992
+                    },
+                    {
+                        "planning_input_token_count": 1962,
+                        "planning_output_token_count": 131,
+                        "planning_token_count": 2093,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1962,
+                        "output_token_count": 131,
+                        "token_count": 2093
+                    },
+                    {
+                        "planning_input_token_count": 2063,
+                        "planning_output_token_count": 137,
+                        "planning_token_count": 2200,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 2063,
+                        "output_token_count": 137,
+                        "token_count": 2200
+                    },
+                    {
+                        "planning_input_token_count": 4471,
+                        "planning_output_token_count": 177,
+                        "planning_token_count": 4648,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4471,
+                        "output_token_count": 177,
+                        "token_count": 4648
+                    },
+                    {
+                        "planning_input_token_count": 5103,
+                        "planning_output_token_count": 171,
+                        "planning_token_count": 5274,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5103,
+                        "output_token_count": 171,
+                        "token_count": 5274
+                    }
+                ],
+                "steps_token_counts": 29284,
+                "steps_planning_input_token_counts": 27704,
+                "steps_planning_output_token_counts": 1580,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 27704,
+                "steps_output_token_counts": 1580
+            }
+        },
+        {
+            "task_name": "Get the lowest priced women's plus size one piece swimsuit in color black with customer rating of atleat 5 on kohls",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1161,
+                        "planning_output_token_count": 143,
+                        "planning_token_count": 1304,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1161,
+                        "output_token_count": 143,
+                        "token_count": 1304
+                    },
+                    {
+                        "planning_input_token_count": 9417,
+                        "planning_output_token_count": 132,
+                        "planning_token_count": 9549,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 9417,
+                        "output_token_count": 132,
+                        "token_count": 9549
+                    },
+                    {
+                        "planning_input_token_count": 5993,
+                        "planning_output_token_count": 154,
+                        "planning_token_count": 6147,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5993,
+                        "output_token_count": 154,
+                        "token_count": 6147
+                    },
+                    {
+                        "planning_input_token_count": 16004,
+                        "planning_output_token_count": 163,
+                        "planning_token_count": 16167,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 16004,
+                        "output_token_count": 163,
+                        "token_count": 16167
+                    },
+                    {
+                        "planning_input_token_count": 11895,
+                        "planning_output_token_count": 170,
+                        "planning_token_count": 12065,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 11895,
+                        "output_token_count": 170,
+                        "token_count": 12065
+                    },
+                    {
+                        "planning_input_token_count": 10589,
+                        "planning_output_token_count": 180,
+                        "planning_token_count": 10769,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 10589,
+                        "output_token_count": 180,
+                        "token_count": 10769
+                    },
+                    {
+                        "planning_input_token_count": 15673,
+                        "planning_output_token_count": 145,
+                        "planning_token_count": 15818,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 15673,
+                        "output_token_count": 145,
+                        "token_count": 15818
+                    },
+                    {
+                        "planning_input_token_count": 15759,
+                        "planning_output_token_count": 152,
+                        "planning_token_count": 15911,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 15759,
+                        "output_token_count": 152,
+                        "token_count": 15911
+                    },
+                    {
+                        "planning_input_token_count": 15845,
+                        "planning_output_token_count": 161,
+                        "planning_token_count": 16006,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 15845,
+                        "output_token_count": 161,
+                        "token_count": 16006
+                    },
+                    {
+                        "planning_input_token_count": 15952,
+                        "planning_output_token_count": 206,
+                        "planning_token_count": 16158,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 15952,
+                        "output_token_count": 206,
+                        "token_count": 16158
+                    },
+                    {
+                        "planning_input_token_count": 16103,
+                        "planning_output_token_count": 163,
+                        "planning_token_count": 16266,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 16103,
+                        "output_token_count": 163,
+                        "token_count": 16266
+                    },
+                    {
+                        "planning_input_token_count": 16223,
+                        "planning_output_token_count": 192,
+                        "planning_token_count": 16415,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 16223,
+                        "output_token_count": 192,
+                        "token_count": 16415
+                    },
+                    {
+                        "planning_input_token_count": 16359,
+                        "planning_output_token_count": 233,
+                        "planning_token_count": 16592,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 16359,
+                        "output_token_count": 233,
+                        "token_count": 16592
+                    },
+                    {
+                        "planning_input_token_count": 16511,
+                        "planning_output_token_count": 201,
+                        "planning_token_count": 16712,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 16511,
+                        "output_token_count": 201,
+                        "token_count": 16712
+                    },
+                    {
+                        "planning_input_token_count": 16678,
+                        "planning_output_token_count": 186,
+                        "planning_token_count": 16864,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 16678,
+                        "output_token_count": 186,
+                        "token_count": 16864
+                    },
+                    {
+                        "planning_input_token_count": 16831,
+                        "planning_output_token_count": 232,
+                        "planning_token_count": 17063,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 16831,
+                        "output_token_count": 232,
+                        "token_count": 17063
+                    },
+                    {
+                        "planning_input_token_count": 17030,
+                        "planning_output_token_count": 254,
+                        "planning_token_count": 17284,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 17030,
+                        "output_token_count": 254,
+                        "token_count": 17284
+                    },
+                    {
+                        "planning_input_token_count": 17251,
+                        "planning_output_token_count": 246,
+                        "planning_token_count": 17497,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 17251,
+                        "output_token_count": 246,
+                        "token_count": 17497
+                    },
+                    {
+                        "planning_input_token_count": 17464,
+                        "planning_output_token_count": 244,
+                        "planning_token_count": 17708,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 17464,
+                        "output_token_count": 244,
+                        "token_count": 17708
+                    }
+                ],
+                "steps_token_counts": 272295,
+                "steps_planning_input_token_counts": 268738,
+                "steps_planning_output_token_counts": 3557,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 268738,
+                "steps_output_token_counts": 3557
+            }
+        },
+        {
+            "task_name": "Find discussions of community and open one with most replies on flightaware.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1147,
+                        "planning_output_token_count": 130,
+                        "planning_token_count": 1277,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1147,
+                        "output_token_count": 130,
+                        "token_count": 1277
+                    },
+                    {
+                        "planning_input_token_count": 9458,
+                        "planning_output_token_count": 166,
+                        "planning_token_count": 9624,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 9458,
+                        "output_token_count": 166,
+                        "token_count": 9624
+                    },
+                    {
+                        "planning_input_token_count": 3863,
+                        "planning_output_token_count": 102,
+                        "planning_token_count": 3965,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3863,
+                        "output_token_count": 102,
+                        "token_count": 3965
+                    },
+                    {
+                        "planning_input_token_count": 4036,
+                        "planning_output_token_count": 110,
+                        "planning_token_count": 4146,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4036,
+                        "output_token_count": 110,
+                        "token_count": 4146
+                    },
+                    {
+                        "planning_input_token_count": 4116,
+                        "planning_output_token_count": 125,
+                        "planning_token_count": 4241,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4116,
+                        "output_token_count": 125,
+                        "token_count": 4241
+                    },
+                    {
+                        "planning_input_token_count": 4212,
+                        "planning_output_token_count": 112,
+                        "planning_token_count": 4324,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4212,
+                        "output_token_count": 112,
+                        "token_count": 4324
+                    },
+                    {
+                        "planning_input_token_count": 4294,
+                        "planning_output_token_count": 127,
+                        "planning_token_count": 4421,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4294,
+                        "output_token_count": 127,
+                        "token_count": 4421
+                    },
+                    {
+                        "planning_input_token_count": 4392,
+                        "planning_output_token_count": 126,
+                        "planning_token_count": 4518,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4392,
+                        "output_token_count": 126,
+                        "token_count": 4518
+                    },
+                    {
+                        "planning_input_token_count": 4489,
+                        "planning_output_token_count": 126,
+                        "planning_token_count": 4615,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4489,
+                        "output_token_count": 126,
+                        "token_count": 4615
+                    },
+                    {
+                        "planning_input_token_count": 4586,
+                        "planning_output_token_count": 126,
+                        "planning_token_count": 4712,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4586,
+                        "output_token_count": 126,
+                        "token_count": 4712
+                    }
+                ],
+                "steps_token_counts": 45843,
+                "steps_planning_input_token_counts": 44593,
+                "steps_planning_output_token_counts": 1250,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 44593,
+                "steps_output_token_counts": 1250
+            }
+        },
+        {
+            "task_name": "Find a 2022 Tesla Model 3 on carmax",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1145,
+                        "planning_output_token_count": 104,
+                        "planning_token_count": 1249,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1145,
+                        "output_token_count": 104,
+                        "token_count": 1249
+                    },
+                    {
+                        "planning_input_token_count": 4053,
+                        "planning_output_token_count": 113,
+                        "planning_token_count": 4166,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4053,
+                        "output_token_count": 113,
+                        "token_count": 4166
+                    },
+                    {
+                        "planning_input_token_count": 4803,
+                        "planning_output_token_count": 190,
+                        "planning_token_count": 4993,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4803,
+                        "output_token_count": 190,
+                        "token_count": 4993
+                    },
+                    {
+                        "planning_input_token_count": 5133,
+                        "planning_output_token_count": 148,
+                        "planning_token_count": 5281,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5133,
+                        "output_token_count": 148,
+                        "token_count": 5281
+                    },
+                    {
+                        "planning_input_token_count": 5208,
+                        "planning_output_token_count": 162,
+                        "planning_token_count": 5370,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5208,
+                        "output_token_count": 162,
+                        "token_count": 5370
+                    },
+                    {
+                        "planning_input_token_count": 5297,
+                        "planning_output_token_count": 163,
+                        "planning_token_count": 5460,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5297,
+                        "output_token_count": 163,
+                        "token_count": 5460
+                    },
+                    {
+                        "planning_input_token_count": 5387,
+                        "planning_output_token_count": 149,
+                        "planning_token_count": 5536,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5387,
+                        "output_token_count": 149,
+                        "token_count": 5536
+                    },
+                    {
+                        "planning_input_token_count": 5463,
+                        "planning_output_token_count": 168,
+                        "planning_token_count": 5631,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5463,
+                        "output_token_count": 168,
+                        "token_count": 5631
+                    },
+                    {
+                        "planning_input_token_count": 5557,
+                        "planning_output_token_count": 170,
+                        "planning_token_count": 5727,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5557,
+                        "output_token_count": 170,
+                        "token_count": 5727
+                    },
+                    {
+                        "planning_input_token_count": 5653,
+                        "planning_output_token_count": 177,
+                        "planning_token_count": 5830,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5653,
+                        "output_token_count": 177,
+                        "token_count": 5830
+                    },
+                    {
+                        "planning_input_token_count": 5757,
+                        "planning_output_token_count": 178,
+                        "planning_token_count": 5935,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5757,
+                        "output_token_count": 178,
+                        "token_count": 5935
+                    },
+                    {
+                        "planning_input_token_count": 5861,
+                        "planning_output_token_count": 186,
+                        "planning_token_count": 6047,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5861,
+                        "output_token_count": 186,
+                        "token_count": 6047
+                    },
+                    {
+                        "planning_input_token_count": 5972,
+                        "planning_output_token_count": 186,
+                        "planning_token_count": 6158,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5972,
+                        "output_token_count": 186,
+                        "token_count": 6158
+                    },
+                    {
+                        "planning_input_token_count": 6084,
+                        "planning_output_token_count": 173,
+                        "planning_token_count": 6257,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 6084,
+                        "output_token_count": 173,
+                        "token_count": 6257
+                    },
+                    {
+                        "planning_input_token_count": 6196,
+                        "planning_output_token_count": 219,
+                        "planning_token_count": 6415,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 6196,
+                        "output_token_count": 219,
+                        "token_count": 6415
+                    }
+                ],
+                "steps_token_counts": 80055,
+                "steps_planning_input_token_counts": 77569,
+                "steps_planning_output_token_counts": 2486,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 77569,
+                "steps_output_token_counts": 2486
+            }
+        },
+        {
+            "task_name": "Get the report from the final environmental impact statement for the Jamaica Bus Depot expansion on new.mta.info",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1153,
+                        "planning_output_token_count": 124,
+                        "planning_token_count": 1277,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1153,
+                        "output_token_count": 124,
+                        "token_count": 1277
+                    },
+                    {
+                        "planning_input_token_count": 5416,
+                        "planning_output_token_count": 150,
+                        "planning_token_count": 5566,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5416,
+                        "output_token_count": 150,
+                        "token_count": 5566
+                    },
+                    {
+                        "planning_input_token_count": 4273,
+                        "planning_output_token_count": 140,
+                        "planning_token_count": 4413,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4273,
+                        "output_token_count": 140,
+                        "token_count": 4413
+                    },
+                    {
+                        "planning_input_token_count": 3597,
+                        "planning_output_token_count": 147,
+                        "planning_token_count": 3744,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3597,
+                        "output_token_count": 147,
+                        "token_count": 3744
+                    },
+                    {
+                        "planning_input_token_count": 3716,
+                        "planning_output_token_count": 170,
+                        "planning_token_count": 3886,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3716,
+                        "output_token_count": 170,
+                        "token_count": 3886
+                    },
+                    {
+                        "planning_input_token_count": 3935,
+                        "planning_output_token_count": 148,
+                        "planning_token_count": 4083,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3935,
+                        "output_token_count": 148,
+                        "token_count": 4083
+                    },
+                    {
+                        "planning_input_token_count": 4777,
+                        "planning_output_token_count": 147,
+                        "planning_token_count": 4924,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4777,
+                        "output_token_count": 147,
+                        "token_count": 4924
+                    },
+                    {
+                        "planning_input_token_count": 1996,
+                        "planning_output_token_count": 137,
+                        "planning_token_count": 2133,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1996,
+                        "output_token_count": 137,
+                        "token_count": 2133
+                    },
+                    {
+                        "planning_input_token_count": 2098,
+                        "planning_output_token_count": 198,
+                        "planning_token_count": 2296,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 2098,
+                        "output_token_count": 198,
+                        "token_count": 2296
+                    },
+                    {
+                        "planning_input_token_count": 2243,
+                        "planning_output_token_count": 212,
+                        "planning_token_count": 2455,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 2243,
+                        "output_token_count": 212,
+                        "token_count": 2455
+                    },
+                    {
+                        "planning_input_token_count": 2388,
+                        "planning_output_token_count": 228,
+                        "planning_token_count": 2616,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 2388,
+                        "output_token_count": 228,
+                        "token_count": 2616
+                    },
+                    {
+                        "planning_input_token_count": 2528,
+                        "planning_output_token_count": 219,
+                        "planning_token_count": 2747,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 2528,
+                        "output_token_count": 219,
+                        "token_count": 2747
+                    },
+                    {
+                        "planning_input_token_count": 2668,
+                        "planning_output_token_count": 223,
+                        "planning_token_count": 2891,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 2668,
+                        "output_token_count": 223,
+                        "token_count": 2891
+                    },
+                    {
+                        "planning_input_token_count": 2806,
+                        "planning_output_token_count": 236,
+                        "planning_token_count": 3042,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 2806,
+                        "output_token_count": 236,
+                        "token_count": 3042
+                    },
+                    {
+                        "planning_input_token_count": 2958,
+                        "planning_output_token_count": 230,
+                        "planning_token_count": 3188,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 2958,
+                        "output_token_count": 230,
+                        "token_count": 3188
+                    }
+                ],
+                "steps_token_counts": 49261,
+                "steps_planning_input_token_counts": 46552,
+                "steps_planning_output_token_counts": 2709,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 46552,
+                "steps_output_token_counts": 2709
+            }
+        },
+        {
+            "task_name": "Search for the lowest millage used Honda Crosstour 2012 to 2013 near 49102 less than $25000 on cargurus.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1164,
+                        "planning_output_token_count": 93,
+                        "planning_token_count": 1257,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1164,
+                        "output_token_count": 93,
+                        "token_count": 1257
+                    },
+                    {
+                        "planning_input_token_count": 6263,
+                        "planning_output_token_count": 134,
+                        "planning_token_count": 6397,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 6263,
+                        "output_token_count": 134,
+                        "token_count": 6397
+                    },
+                    {
+                        "planning_input_token_count": 6307,
+                        "planning_output_token_count": 135,
+                        "planning_token_count": 6442,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 6307,
+                        "output_token_count": 135,
+                        "token_count": 6442
+                    },
+                    {
+                        "planning_input_token_count": 6473,
+                        "planning_output_token_count": 121,
+                        "planning_token_count": 6594,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 6473,
+                        "output_token_count": 121,
+                        "token_count": 6594
+                    },
+                    {
+                        "planning_input_token_count": 6560,
+                        "planning_output_token_count": 104,
+                        "planning_token_count": 6664,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 6560,
+                        "output_token_count": 104,
+                        "token_count": 6664
+                    },
+                    {
+                        "planning_input_token_count": 6479,
+                        "planning_output_token_count": 133,
+                        "planning_token_count": 6612,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 6479,
+                        "output_token_count": 133,
+                        "token_count": 6612
+                    },
+                    {
+                        "planning_input_token_count": 6715,
+                        "planning_output_token_count": 183,
+                        "planning_token_count": 6898,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 6715,
+                        "output_token_count": 183,
+                        "token_count": 6898
+                    },
+                    {
+                        "planning_input_token_count": 6870,
+                        "planning_output_token_count": 131,
+                        "planning_token_count": 7001,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 6870,
+                        "output_token_count": 131,
+                        "token_count": 7001
+                    },
+                    {
+                        "planning_input_token_count": 6972,
+                        "planning_output_token_count": 203,
+                        "planning_token_count": 7175,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 6972,
+                        "output_token_count": 203,
+                        "token_count": 7175
+                    },
+                    {
+                        "planning_input_token_count": 7102,
+                        "planning_output_token_count": 257,
+                        "planning_token_count": 7359,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 7102,
+                        "output_token_count": 257,
+                        "token_count": 7359
+                    },
+                    {
+                        "planning_input_token_count": 7226,
+                        "planning_output_token_count": 265,
+                        "planning_token_count": 7491,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 7226,
+                        "output_token_count": 265,
+                        "token_count": 7491
+                    },
+                    {
+                        "planning_input_token_count": 7362,
+                        "planning_output_token_count": 199,
+                        "planning_token_count": 7561,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 7362,
+                        "output_token_count": 199,
+                        "token_count": 7561
+                    },
+                    {
+                        "planning_input_token_count": 7452,
+                        "planning_output_token_count": 179,
+                        "planning_token_count": 7631,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 7452,
+                        "output_token_count": 179,
+                        "token_count": 7631
+                    },
+                    {
+                        "planning_input_token_count": 7535,
+                        "planning_output_token_count": 227,
+                        "planning_token_count": 7762,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 7535,
+                        "output_token_count": 227,
+                        "token_count": 7762
+                    },
+                    {
+                        "planning_input_token_count": 7651,
+                        "planning_output_token_count": 229,
+                        "planning_token_count": 7880,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 7651,
+                        "output_token_count": 229,
+                        "token_count": 7880
+                    },
+                    {
+                        "planning_input_token_count": 7775,
+                        "planning_output_token_count": 274,
+                        "planning_token_count": 8049,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 7775,
+                        "output_token_count": 274,
+                        "token_count": 8049
+                    },
+                    {
+                        "planning_input_token_count": 7923,
+                        "planning_output_token_count": 275,
+                        "planning_token_count": 8198,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 7923,
+                        "output_token_count": 275,
+                        "token_count": 8198
+                    },
+                    {
+                        "planning_input_token_count": 8071,
+                        "planning_output_token_count": 275,
+                        "planning_token_count": 8346,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 8071,
+                        "output_token_count": 275,
+                        "token_count": 8346
+                    },
+                    {
+                        "planning_input_token_count": 8219,
+                        "planning_output_token_count": 259,
+                        "planning_token_count": 8478,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 8219,
+                        "output_token_count": 259,
+                        "token_count": 8478
+                    },
+                    {
+                        "planning_input_token_count": 8366,
+                        "planning_output_token_count": 257,
+                        "planning_token_count": 8623,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 8366,
+                        "output_token_count": 257,
+                        "token_count": 8623
+                    },
+                    {
+                        "planning_input_token_count": 8513,
+                        "planning_output_token_count": 252,
+                        "planning_token_count": 8765,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 8513,
+                        "output_token_count": 252,
+                        "token_count": 8765
+                    },
+                    {
+                        "planning_input_token_count": 8660,
+                        "planning_output_token_count": 281,
+                        "planning_token_count": 8941,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 8660,
+                        "output_token_count": 281,
+                        "token_count": 8941
+                    },
+                    {
+                        "planning_input_token_count": 8808,
+                        "planning_output_token_count": 269,
+                        "planning_token_count": 9077,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 8808,
+                        "output_token_count": 269,
+                        "token_count": 9077
+                    },
+                    {
+                        "planning_input_token_count": 8955,
+                        "planning_output_token_count": 275,
+                        "planning_token_count": 9230,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 8955,
+                        "output_token_count": 275,
+                        "token_count": 9230
+                    },
+                    {
+                        "planning_input_token_count": 9104,
+                        "planning_output_token_count": 258,
+                        "planning_token_count": 9362,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 9104,
+                        "output_token_count": 258,
+                        "token_count": 9362
+                    }
+                ],
+                "steps_token_counts": 187793,
+                "steps_planning_input_token_counts": 182525,
+                "steps_planning_output_token_counts": 5268,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 182525,
+                "steps_output_token_counts": 5268
+            }
+        },
+        {
+            "task_name": "Browse men's winter coats in size large that is on clearance on kohls.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1150,
+                        "planning_output_token_count": 104,
+                        "planning_token_count": 1254,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1150,
+                        "output_token_count": 104,
+                        "token_count": 1254
+                    },
+                    {
+                        "planning_input_token_count": 9405,
+                        "planning_output_token_count": 110,
+                        "planning_token_count": 9515,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 9405,
+                        "output_token_count": 110,
+                        "token_count": 9515
+                    },
+                    {
+                        "planning_input_token_count": 5350,
+                        "planning_output_token_count": 104,
+                        "planning_token_count": 5454,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5350,
+                        "output_token_count": 104,
+                        "token_count": 5454
+                    },
+                    {
+                        "planning_input_token_count": 11456,
+                        "planning_output_token_count": 129,
+                        "planning_token_count": 11585,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 11456,
+                        "output_token_count": 129,
+                        "token_count": 11585
+                    },
+                    {
+                        "planning_input_token_count": 14923,
+                        "planning_output_token_count": 113,
+                        "planning_token_count": 15036,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 14923,
+                        "output_token_count": 113,
+                        "token_count": 15036
+                    },
+                    {
+                        "planning_input_token_count": 15006,
+                        "planning_output_token_count": 115,
+                        "planning_token_count": 15121,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 15006,
+                        "output_token_count": 115,
+                        "token_count": 15121
+                    },
+                    {
+                        "planning_input_token_count": 15167,
+                        "planning_output_token_count": 116,
+                        "planning_token_count": 15283,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 15167,
+                        "output_token_count": 116,
+                        "token_count": 15283
+                    },
+                    {
+                        "planning_input_token_count": 14868,
+                        "planning_output_token_count": 116,
+                        "planning_token_count": 14984,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 14868,
+                        "output_token_count": 116,
+                        "token_count": 14984
+                    },
+                    {
+                        "planning_input_token_count": 14127,
+                        "planning_output_token_count": 126,
+                        "planning_token_count": 14253,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 14127,
+                        "output_token_count": 126,
+                        "token_count": 14253
+                    },
+                    {
+                        "planning_input_token_count": 14478,
+                        "planning_output_token_count": 117,
+                        "planning_token_count": 14595,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 14478,
+                        "output_token_count": 117,
+                        "token_count": 14595
+                    },
+                    {
+                        "planning_input_token_count": 14564,
+                        "planning_output_token_count": 125,
+                        "planning_token_count": 14689,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 14564,
+                        "output_token_count": 125,
+                        "token_count": 14689
+                    },
+                    {
+                        "planning_input_token_count": 14658,
+                        "planning_output_token_count": 125,
+                        "planning_token_count": 14783,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 14658,
+                        "output_token_count": 125,
+                        "token_count": 14783
+                    }
+                ],
+                "steps_token_counts": 146552,
+                "steps_planning_input_token_counts": 145152,
+                "steps_planning_output_token_counts": 1400,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 145152,
+                "steps_output_token_counts": 1400
+            }
+        },
+        {
+            "task_name": "Find a walkthrough for the game \"The Legend of Zelda: Breath of the Wild\" on ign.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1153,
+                        "planning_output_token_count": 88,
+                        "planning_token_count": 1241,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1153,
+                        "output_token_count": 88,
+                        "token_count": 1241
+                    },
+                    {
+                        "planning_input_token_count": 4484,
+                        "planning_output_token_count": 133,
+                        "planning_token_count": 4617,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4484,
+                        "output_token_count": 133,
+                        "token_count": 4617
+                    },
+                    {
+                        "planning_input_token_count": 3862,
+                        "planning_output_token_count": 123,
+                        "planning_token_count": 3985,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3862,
+                        "output_token_count": 123,
+                        "token_count": 3985
+                    },
+                    {
+                        "planning_input_token_count": 3626,
+                        "planning_output_token_count": 117,
+                        "planning_token_count": 3743,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3626,
+                        "output_token_count": 117,
+                        "token_count": 3743
+                    },
+                    {
+                        "planning_input_token_count": 4686,
+                        "planning_output_token_count": 137,
+                        "planning_token_count": 4823,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4686,
+                        "output_token_count": 137,
+                        "token_count": 4823
+                    },
+                    {
+                        "planning_input_token_count": 4891,
+                        "planning_output_token_count": 130,
+                        "planning_token_count": 5021,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4891,
+                        "output_token_count": 130,
+                        "token_count": 5021
+                    },
+                    {
+                        "planning_input_token_count": 4883,
+                        "planning_output_token_count": 157,
+                        "planning_token_count": 5040,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4883,
+                        "output_token_count": 157,
+                        "token_count": 5040
+                    },
+                    {
+                        "planning_input_token_count": 5010,
+                        "planning_output_token_count": 171,
+                        "planning_token_count": 5181,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5010,
+                        "output_token_count": 171,
+                        "token_count": 5181
+                    },
+                    {
+                        "planning_input_token_count": 5151,
+                        "planning_output_token_count": 154,
+                        "planning_token_count": 5305,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5151,
+                        "output_token_count": 154,
+                        "token_count": 5305
+                    },
+                    {
+                        "planning_input_token_count": 5274,
+                        "planning_output_token_count": 143,
+                        "planning_token_count": 5417,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 5274,
+                        "output_token_count": 143,
+                        "token_count": 5417
+                    }
+                ],
+                "steps_token_counts": 44373,
+                "steps_planning_input_token_counts": 43020,
+                "steps_planning_output_token_counts": 1353,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 43020,
+                "steps_output_token_counts": 1353
+            }
+        },
+        {
+            "task_name": "Find an editor's choice review with a score of 10 in the boardgame category on ign",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1152,
+                        "planning_output_token_count": 110,
+                        "planning_token_count": 1262,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1152,
+                        "output_token_count": 110,
+                        "token_count": 1262
+                    },
+                    {
+                        "planning_input_token_count": 4519,
+                        "planning_output_token_count": 137,
+                        "planning_token_count": 4656,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4519,
+                        "output_token_count": 137,
+                        "token_count": 4656
+                    },
+                    {
+                        "planning_input_token_count": 3991,
+                        "planning_output_token_count": 123,
+                        "planning_token_count": 4114,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3991,
+                        "output_token_count": 123,
+                        "token_count": 4114
+                    },
+                    {
+                        "planning_input_token_count": 4163,
+                        "planning_output_token_count": 125,
+                        "planning_token_count": 4288,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4163,
+                        "output_token_count": 125,
+                        "token_count": 4288
+                    },
+                    {
+                        "planning_input_token_count": 4257,
+                        "planning_output_token_count": 156,
+                        "planning_token_count": 4413,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4257,
+                        "output_token_count": 156,
+                        "token_count": 4413
+                    },
+                    {
+                        "planning_input_token_count": 4355,
+                        "planning_output_token_count": 148,
+                        "planning_token_count": 4503,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4355,
+                        "output_token_count": 148,
+                        "token_count": 4503
+                    },
+                    {
+                        "planning_input_token_count": 4461,
+                        "planning_output_token_count": 154,
+                        "planning_token_count": 4615,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4461,
+                        "output_token_count": 154,
+                        "token_count": 4615
+                    },
+                    {
+                        "planning_input_token_count": 3400,
+                        "planning_output_token_count": 193,
+                        "planning_token_count": 3593,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3400,
+                        "output_token_count": 193,
+                        "token_count": 3593
+                    },
+                    {
+                        "planning_input_token_count": 3774,
+                        "planning_output_token_count": 182,
+                        "planning_token_count": 3956,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3774,
+                        "output_token_count": 182,
+                        "token_count": 3956
+                    },
+                    {
+                        "planning_input_token_count": 3891,
+                        "planning_output_token_count": 161,
+                        "planning_token_count": 4052,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3891,
+                        "output_token_count": 161,
+                        "token_count": 4052
+                    },
+                    {
+                        "planning_input_token_count": 3994,
+                        "planning_output_token_count": 158,
+                        "planning_token_count": 4152,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3994,
+                        "output_token_count": 158,
+                        "token_count": 4152
+                    },
+                    {
+                        "planning_input_token_count": 4096,
+                        "planning_output_token_count": 183,
+                        "planning_token_count": 4279,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 4096,
+                        "output_token_count": 183,
+                        "token_count": 4279
+                    }
+                ],
+                "steps_token_counts": 47883,
+                "steps_planning_input_token_counts": 46053,
+                "steps_planning_output_token_counts": 1830,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 46053,
+                "steps_output_token_counts": 1830
+            }
+        },
+        {
+            "task_name": "Sign up for a REI Co-Op membership on rei.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1147,
+                        "planning_output_token_count": 119,
+                        "planning_token_count": 1266,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1147,
+                        "output_token_count": 119,
+                        "token_count": 1266
+                    },
+                    {
+                        "planning_input_token_count": 12017,
+                        "planning_output_token_count": 112,
+                        "planning_token_count": 12129,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 12017,
+                        "output_token_count": 112,
+                        "token_count": 12129
+                    },
+                    {
+                        "planning_input_token_count": 1287,
+                        "planning_output_token_count": 132,
+                        "planning_token_count": 1419,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1287,
+                        "output_token_count": 132,
+                        "token_count": 1419
+                    },
+                    {
+                        "planning_input_token_count": 1471,
+                        "planning_output_token_count": 147,
+                        "planning_token_count": 1618,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1471,
+                        "output_token_count": 147,
+                        "token_count": 1618
+                    },
+                    {
+                        "planning_input_token_count": 3047,
+                        "planning_output_token_count": 117,
+                        "planning_token_count": 3164,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3047,
+                        "output_token_count": 117,
+                        "token_count": 3164
+                    },
+                    {
+                        "planning_input_token_count": 1673,
+                        "planning_output_token_count": 132,
+                        "planning_token_count": 1805,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1673,
+                        "output_token_count": 132,
+                        "token_count": 1805
+                    },
+                    {
+                        "planning_input_token_count": 3247,
+                        "planning_output_token_count": 124,
+                        "planning_token_count": 3371,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3247,
+                        "output_token_count": 124,
+                        "token_count": 3371
+                    },
+                    {
+                        "planning_input_token_count": 1867,
+                        "planning_output_token_count": 182,
+                        "planning_token_count": 2049,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1867,
+                        "output_token_count": 182,
+                        "token_count": 2049
+                    },
+                    {
+                        "planning_input_token_count": 3453,
+                        "planning_output_token_count": 137,
+                        "planning_token_count": 3590,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 3453,
+                        "output_token_count": 137,
+                        "token_count": 3590
+                    },
+                    {
+                        "planning_input_token_count": 2120,
+                        "planning_output_token_count": 154,
+                        "planning_token_count": 2274,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 2120,
+                        "output_token_count": 154,
+                        "token_count": 2274
+                    }
+                ],
+                "steps_token_counts": 32685,
+                "steps_planning_input_token_counts": 31329,
+                "steps_planning_output_token_counts": 1356,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 31329,
+                "steps_output_token_counts": 1356
+            }
+        }
+    ],
+    "total_planning_input_tokens": 1536819,
+    "total_planning_output_tokens": 38254,
+    "total_reward_input_tokens": 0,
+    "total_reward_output_tokens": 0,
+    "total_input_tokens": 1536819,
+    "total_output_tokens": 38254,
+    "total_tokens": 1575073
+}

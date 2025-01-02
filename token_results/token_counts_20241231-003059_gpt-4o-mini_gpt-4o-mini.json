@@ -1,0 +1,142 @@
+{
+    "calls": [
+        {
+            "task_name": "Find Dota 2 game and add all DLC to cart in steam.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1140,
+                        "planning_output_token_count": 87,
+                        "planning_token_count": 1227,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1140,
+                        "output_token_count": 87,
+                        "token_count": 1227
+                    },
+                    {
+                        "planning_input_token_count": 11268,
+                        "planning_output_token_count": 103,
+                        "planning_token_count": 11371,
+                        "reward_input_token_count": 10834,
+                        "reward_output_token_count": 165,
+                        "reward_token_count": 10999,
+                        "input_token_count": 22102,
+                        "output_token_count": 268,
+                        "token_count": 22370
+                    },
+                    {
+                        "planning_input_token_count": 11338,
+                        "planning_output_token_count": 97,
+                        "planning_token_count": 11435,
+                        "reward_input_token_count": 10965,
+                        "reward_output_token_count": 184,
+                        "reward_token_count": 11149,
+                        "input_token_count": 22303,
+                        "output_token_count": 281,
+                        "token_count": 22584
+                    },
+                    {
+                        "planning_input_token_count": 6290,
+                        "planning_output_token_count": 105,
+                        "planning_token_count": 6395,
+                        "reward_input_token_count": 5839,
+                        "reward_output_token_count": 185,
+                        "reward_token_count": 6024,
+                        "input_token_count": 12129,
+                        "output_token_count": 290,
+                        "token_count": 12419
+                    },
+                    {
+                        "planning_input_token_count": 4882,
+                        "planning_output_token_count": 112,
+                        "planning_token_count": 4994,
+                        "reward_input_token_count": 4426,
+                        "reward_output_token_count": 167,
+                        "reward_token_count": 4593,
+                        "input_token_count": 9308,
+                        "output_token_count": 279,
+                        "token_count": 9587
+                    },
+                    {
+                        "planning_input_token_count": 5061,
+                        "planning_output_token_count": 160,
+                        "planning_token_count": 5221,
+                        "reward_input_token_count": 4605,
+                        "reward_output_token_count": 161,
+                        "reward_token_count": 4766,
+                        "input_token_count": 9666,
+                        "output_token_count": 321,
+                        "token_count": 9987
+                    },
+                    {
+                        "planning_input_token_count": 5185,
+                        "planning_output_token_count": 158,
+                        "planning_token_count": 5343,
+                        "reward_input_token_count": 4737,
+                        "reward_output_token_count": 168,
+                        "reward_token_count": 4905,
+                        "input_token_count": 9922,
+                        "output_token_count": 326,
+                        "token_count": 10248
+                    },
+                    {
+                        "planning_input_token_count": 5311,
+                        "planning_output_token_count": 116,
+                        "planning_token_count": 5427,
+                        "reward_input_token_count": 4864,
+                        "reward_output_token_count": 161,
+                        "reward_token_count": 5025,
+                        "input_token_count": 10175,
+                        "output_token_count": 277,
+                        "token_count": 10452
+                    },
+                    {
+                        "planning_input_token_count": 4198,
+                        "planning_output_token_count": 95,
+                        "planning_token_count": 4293,
+                        "reward_input_token_count": 3726,
+                        "reward_output_token_count": 190,
+                        "reward_token_count": 3916,
+                        "input_token_count": 7924,
+                        "output_token_count": 285,
+                        "token_count": 8209
+                    },
+                    {
+                        "planning_input_token_count": 4383,
+                        "planning_output_token_count": 97,
+                        "planning_token_count": 4480,
+                        "reward_input_token_count": 3908,
+                        "reward_output_token_count": 170,
+                        "reward_token_count": 4078,
+                        "input_token_count": 8291,
+                        "output_token_count": 267,
+                        "token_count": 8558
+                    }
+                ],
+                "steps_token_counts": 115641,
+                "steps_planning_input_token_counts": 59056,
+                "steps_planning_output_token_counts": 1130,
+                "steps_reward_input_token_counts": 53904,
+                "steps_reward_output_token_counts": 1551,
+                "steps_input_token_counts": 112960,
+                "steps_output_token_counts": 2681
+            }
+        }
+    ],
+    "total_planning_input_tokens": 59056,
+    "total_planning_output_tokens": 1130,
+    "total_reward_input_tokens": 53904,
+    "total_reward_output_tokens": 1551,
+    "total_input_tokens": 112960,
+    "total_output_tokens": 2681,
+    "total_tokens": 115641,
+    "total_planning_input_token_cost": 0.008858399999999999,
+    "total_planning_output_token_cost": 0.000678,
+    "total_reward_input_token_cost": 0.0080856,
+    "total_reward_output_token_cost": 0.0009306,
+    "total_input_token_cost": 0.016944,
+    "total_output_token_cost": 0.0016086,
+    "total_token_cost": 0.018552600000000002
+}

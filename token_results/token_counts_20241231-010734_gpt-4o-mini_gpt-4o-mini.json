@@ -1,0 +1,65 @@
+{
+    "calls": [
+        {
+            "task_name": "Open the page to answer a question in the home improvement section in yellowpages",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1140,
+                        "planning_output_token_count": 76,
+                        "planning_token_count": 1216,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1140,
+                        "output_token_count": 76,
+                        "token_count": 1216
+                    },
+                    {
+                        "planning_input_token_count": 2801,
+                        "planning_output_token_count": 106,
+                        "planning_token_count": 2907,
+                        "reward_input_token_count": 2348,
+                        "reward_output_token_count": 177,
+                        "reward_token_count": 2525,
+                        "input_token_count": 5149,
+                        "output_token_count": 283,
+                        "token_count": 5432
+                    },
+                    {
+                        "planning_input_token_count": 2461,
+                        "planning_output_token_count": 90,
+                        "planning_token_count": 2551,
+                        "reward_input_token_count": 2127,
+                        "reward_output_token_count": 186,
+                        "reward_token_count": 2313,
+                        "input_token_count": 4588,
+                        "output_token_count": 276,
+                        "token_count": 4864
+                    }
+                ],
+                "steps_token_counts": 11512,
+                "steps_planning_input_token_counts": 6402,
+                "steps_planning_output_token_counts": 272,
+                "steps_reward_input_token_counts": 4475,
+                "steps_reward_output_token_counts": 363,
+                "steps_input_token_counts": 10877,
+                "steps_output_token_counts": 635
+            }
+        }
+    ],
+    "total_planning_input_tokens": 6402,
+    "total_planning_output_tokens": 272,
+    "total_reward_input_tokens": 4475,
+    "total_reward_output_tokens": 363,
+    "total_input_tokens": 10877,
+    "total_output_tokens": 635,
+    "total_tokens": 11512,
+    "total_planning_input_token_cost": 0.0009603,
+    "total_planning_output_token_cost": 0.00016319999999999998,
+    "total_reward_input_token_cost": 0.00067125,
+    "total_reward_output_token_cost": 0.00021779999999999998,
+    "total_input_token_cost": 0.0016315499999999998,
+    "total_output_token_cost": 0.00038099999999999994,
+    "total_token_cost": 0.0020125499999999997
+}

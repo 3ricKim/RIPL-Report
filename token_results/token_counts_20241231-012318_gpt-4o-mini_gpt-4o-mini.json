@@ -1,0 +1,54 @@
+{
+    "calls": [
+        {
+            "task_name": "Open the page to answer a question in the home improvement section in yellowpages",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 1140,
+                        "planning_output_token_count": 78,
+                        "planning_token_count": 1218,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 1140,
+                        "output_token_count": 78,
+                        "token_count": 1218
+                    },
+                    {
+                        "planning_input_token_count": 2409,
+                        "planning_output_token_count": 94,
+                        "planning_token_count": 2503,
+                        "reward_input_token_count": 1982,
+                        "reward_output_token_count": 177,
+                        "reward_token_count": 2159,
+                        "input_token_count": 4391,
+                        "output_token_count": 271,
+                        "token_count": 4662
+                    }
+                ],
+                "steps_token_counts": 5880,
+                "steps_planning_input_token_counts": 3549,
+                "steps_planning_output_token_counts": 172,
+                "steps_reward_input_token_counts": 1982,
+                "steps_reward_output_token_counts": 177,
+                "steps_input_token_counts": 5531,
+                "steps_output_token_counts": 349
+            }
+        }
+    ],
+    "total_planning_input_tokens": 3549,
+    "total_planning_output_tokens": 172,
+    "total_reward_input_tokens": 1982,
+    "total_reward_output_tokens": 177,
+    "total_input_tokens": 5531,
+    "total_output_tokens": 349,
+    "total_tokens": 5880,
+    "total_planning_input_token_cost": 0.00053235,
+    "total_planning_output_token_cost": 0.0001032,
+    "total_reward_input_token_cost": 0.00029729999999999996,
+    "total_reward_output_token_cost": 0.00010619999999999999,
+    "total_input_token_cost": 0.0008296499999999999,
+    "total_output_token_cost": 0.0002094,
+    "total_token_cost": 0.00103905
+}
