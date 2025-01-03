@@ -53,9 +53,11 @@ def read_json_file(file_path):
     except FileNotFoundError:
         return f"File not found: {file_path}"
 
-
 def save_screenshot(mode: str, record_time: str, task_name: str, step_number: int, description: str,
                     screenshot_base64: str, task_name_id: str = None):
+    if not screenshot_base64:
+        print("No image data provided to save_screenshot.")
+        return
 
     timestamp = datetime.now().strftime('%Y%m%d-%H%M%S')
     invalid_chars = '<>:"/\\|?*'

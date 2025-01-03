@@ -13,7 +13,7 @@ class DomVisionPrompts:
     example_output = '\n```\n{\n  "action": "click",\n  "action_input": "button",\n  "element_id": "236",\n  "description": "Now I\'m on Google\'s main page. I\'m now clicking the button with element_id [236] to see more information."\n}\n```'
     score_output = '\n```\n{\n "score": "10"\n,"description": "According to the previous trajectory, the current thought and the action performed are an important part of completing the target task, so it is very important, so I give 10 points"}\n```'
 
-    d_v_planning_prompt_system = planning_prompt_system = '''You are an assistant who not only helps to browse and operate web pages to achieve certain goals, but also needs to explore the information on the page to answer the questions raised by the target task. Please answer the following questions as much as possible.
+    d_v_planning_prompt_system = '''You are an assistant who not only helps to browse and operate web pages to achieve certain goals, but also needs to explore the information on the page to answer the questions raised by the target task. Please answer the following questions as much as possible.
         There are key information you will get:
         **Key Information**:
             - Previous trace: all thoughts, actions and reflections you have made historically.
@@ -32,6 +32,9 @@ class DomVisionPrompts:
                         [163] textarea 'Search'
                         [236] button 'See more'
                 ```
+        **Vision Integration**:
+            Additionally, some messages may include Base64-encoded images representing screenshots of the current web page. When provided, these images offer visual context about the page's layout, styles, and dynamic elements. Use the information from these screenshots in conjunction with the accessibility tree to make more informed decisions and actions.
+
         In this example, each row represents the characteristic representation of a web page element. It has three attributes: '[40]' for the element's element_id, 'link' indicates the element is a link, and 'About' for the content of the element.
         Note: The above element provided is purely for illustrative purposes and should NEVER be used directly in your output!         
 

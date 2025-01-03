@@ -194,10 +194,10 @@ class Planning:
 
         modes = {
             "dom": DomMode(text_model=llm_planning_text),
-            "dom_v_desc": DomVDescMode(visual_model=gpt4v, text_model=llm_planning_text),
-            "vision_to_dom": VisionToDomMode(visual_model=gpt4v, text_model=llm_planning_text),
-            "d_v": DVMode(visual_model=gpt4v),
-            "vision": VisionMode(visual_model=gpt4v)
+            "dom_v_desc": DomVDescMode(visual_model=gemini, text_model=llm_planning_text),
+            "vision_to_dom": VisionToDomMode(visual_model=gemini, text_model=llm_planning_text),
+            "d_v": DVMode(visual_model=gemini),
+            "vision": VisionMode(visual_model=gemini)
         }
 
         # planning_response_thought, planning_response_action
