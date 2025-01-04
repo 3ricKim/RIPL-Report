@@ -1,0 +1,47 @@
+{
+    "calls": [
+        {
+            "task_name": "Compare available plans for the AeroAPI on flightaware",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4574,
+                        "reward_output_token_count": 106,
+                        "reward_token_count": 4680,
+                        "input_token_count": 4574,
+                        "output_token_count": 106,
+                        "token_count": 4680
+                    }
+                ],
+                "steps_token_counts": 4680,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 4574,
+                "steps_reward_output_token_counts": 106,
+                "steps_input_token_counts": 4574,
+                "steps_output_token_counts": 106
+            }
+        }
+    ],
+    "total_planning_input_tokens": 0,
+    "total_planning_output_tokens": 0,
+    "total_reward_input_tokens": 4574,
+    "total_reward_output_tokens": 106,
+    "total_input_tokens": 4574,
+    "total_output_tokens": 106,
+    "total_tokens": 4680
+}

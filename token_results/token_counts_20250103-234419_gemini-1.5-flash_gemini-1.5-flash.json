@@ -1,0 +1,58 @@
+{
+    "calls": [
+        {
+            "task_name": "Check the status of your iPhone repair on apple.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3847,
+                        "reward_output_token_count": 105,
+                        "reward_token_count": 3952,
+                        "input_token_count": 3847,
+                        "output_token_count": 105,
+                        "token_count": 3952
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3791,
+                        "reward_output_token_count": 112,
+                        "reward_token_count": 3903,
+                        "input_token_count": 3791,
+                        "output_token_count": 112,
+                        "token_count": 3903
+                    }
+                ],
+                "steps_token_counts": 7855,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 7638,
+                "steps_reward_output_token_counts": 217,
+                "steps_input_token_counts": 7638,
+                "steps_output_token_counts": 217
+            }
+        }
+    ],
+    "total_planning_input_tokens": 0,
+    "total_planning_output_tokens": 0,
+    "total_reward_input_tokens": 7638,
+    "total_reward_output_tokens": 217,
+    "total_input_tokens": 7638,
+    "total_output_tokens": 217,
+    "total_tokens": 7855
+}
