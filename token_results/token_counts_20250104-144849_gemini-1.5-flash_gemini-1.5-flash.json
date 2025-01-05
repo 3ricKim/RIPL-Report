@@ -1,0 +1,157 @@
+{
+    "calls": [
+        {
+            "task_name": "Download the e-receipt with the last name Smith and confirmation number X123456989 on budget",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 6071,
+                        "reward_output_token_count": 103,
+                        "reward_token_count": 6174,
+                        "input_token_count": 6071,
+                        "output_token_count": 103,
+                        "token_count": 6174
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4635,
+                        "reward_output_token_count": 120,
+                        "reward_token_count": 4755,
+                        "input_token_count": 4635,
+                        "output_token_count": 120,
+                        "token_count": 4755
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4635,
+                        "reward_output_token_count": 99,
+                        "reward_token_count": 4734,
+                        "input_token_count": 4635,
+                        "output_token_count": 99,
+                        "token_count": 4734
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4772,
+                        "reward_output_token_count": 131,
+                        "reward_token_count": 4903,
+                        "input_token_count": 4772,
+                        "output_token_count": 131,
+                        "token_count": 4903
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4902,
+                        "reward_output_token_count": 140,
+                        "reward_token_count": 5042,
+                        "input_token_count": 4902,
+                        "output_token_count": 140,
+                        "token_count": 5042
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4902,
+                        "reward_output_token_count": 127,
+                        "reward_token_count": 5029,
+                        "input_token_count": 4902,
+                        "output_token_count": 127,
+                        "token_count": 5029
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 5066,
+                        "reward_output_token_count": 139,
+                        "reward_token_count": 5205,
+                        "input_token_count": 5066,
+                        "output_token_count": 139,
+                        "token_count": 5205
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 5805,
+                        "reward_output_token_count": 119,
+                        "reward_token_count": 5924,
+                        "input_token_count": 5805,
+                        "output_token_count": 119,
+                        "token_count": 5924
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 5353,
+                        "reward_output_token_count": 166,
+                        "reward_token_count": 5519,
+                        "input_token_count": 5353,
+                        "output_token_count": 166,
+                        "token_count": 5519
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 5531,
+                        "reward_output_token_count": 155,
+                        "reward_token_count": 5686,
+                        "input_token_count": 5531,
+                        "output_token_count": 155,
+                        "token_count": 5686
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 5705,
+                        "reward_output_token_count": 144,
+                        "reward_token_count": 5849,
+                        "input_token_count": 5705,
+                        "output_token_count": 144,
+                        "token_count": 5849
+                    }
+                ],
+                "steps_token_counts": 58820,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 57377,
+                "steps_reward_output_token_counts": 1443,
+                "steps_input_token_counts": 57377,
+                "steps_output_token_counts": 1443
+            }
+        }
+    ],
+    "total_planning_input_tokens": 0,
+    "total_planning_output_tokens": 0,
+    "total_reward_input_tokens": 57377,
+    "total_reward_output_tokens": 1443,
+    "total_input_tokens": 57377,
+    "total_output_tokens": 1443,
+    "total_tokens": 58820
+}
