@@ -1,0 +1,9 @@
+{
+    "task_counts": 31,
+    "average_step_score_rate": 0.5097670250896057,
+    "average_efficiency_score": 8.78225806451613,
+    "usd_efficiency_score": 0.0,
+    "key_node_completion_rate": 0.4244604316546763,
+    "task_success_rate": 0.1935483870967742,
+    "task_near_success_rate": 0.22580645161290322
+}

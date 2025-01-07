@@ -23,7 +23,7 @@ batch_tasks_condition_step_increase = 5
 [files]
 batch_tasks_file_path = "./data/example/mind2web-test_104tasks_20240528.json" # The input data path
 ground_truth_file_path = "NOT NEEDED"  # the ground_truth data path
-out_file_path = "./batch_tasks_results/dom_v_desc_no_global_reward"   # YOUR OUT FILE PATH 
+out_file_path = "./batch_tasks_results/d_v_dom_vision_reward"   # YOUR OUT FILE PATH 
 
 [conditions]
 URL = ["error"]

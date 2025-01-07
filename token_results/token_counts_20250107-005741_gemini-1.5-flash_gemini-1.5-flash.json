@@ -1,0 +1,4097 @@
+{
+    "calls": [
+        {
+            "task_name": "Find the store location and hours of the closest Gamestop to zip code 90028 and set as home store on gamestop",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 5287,
+                        "reward_output_token_count": 198,
+                        "reward_token_count": 5485,
+                        "input_token_count": 5287,
+                        "output_token_count": 198,
+                        "token_count": 5485
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 5479,
+                        "reward_output_token_count": 225,
+                        "reward_token_count": 5704,
+                        "input_token_count": 5479,
+                        "output_token_count": 225,
+                        "token_count": 5704
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 5663,
+                        "reward_output_token_count": 189,
+                        "reward_token_count": 5852,
+                        "input_token_count": 5663,
+                        "output_token_count": 189,
+                        "token_count": 5852
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 7037,
+                        "reward_output_token_count": 216,
+                        "reward_token_count": 7253,
+                        "input_token_count": 7037,
+                        "output_token_count": 216,
+                        "token_count": 7253
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 1699,
+                        "reward_output_token_count": 217,
+                        "reward_token_count": 1916,
+                        "input_token_count": 1699,
+                        "output_token_count": 217,
+                        "token_count": 1916
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 1898,
+                        "reward_output_token_count": 186,
+                        "reward_token_count": 2084,
+                        "input_token_count": 1898,
+                        "output_token_count": 186,
+                        "token_count": 2084
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3900,
+                        "reward_output_token_count": 195,
+                        "reward_token_count": 4095,
+                        "input_token_count": 3900,
+                        "output_token_count": 195,
+                        "token_count": 4095
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4098,
+                        "reward_output_token_count": 257,
+                        "reward_token_count": 4355,
+                        "input_token_count": 4098,
+                        "output_token_count": 257,
+                        "token_count": 4355
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4289,
+                        "reward_output_token_count": 192,
+                        "reward_token_count": 4481,
+                        "input_token_count": 4289,
+                        "output_token_count": 192,
+                        "token_count": 4481
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4497,
+                        "reward_output_token_count": 208,
+                        "reward_token_count": 4705,
+                        "input_token_count": 4497,
+                        "output_token_count": 208,
+                        "token_count": 4705
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4740,
+                        "reward_output_token_count": 204,
+                        "reward_token_count": 4944,
+                        "input_token_count": 4740,
+                        "output_token_count": 204,
+                        "token_count": 4944
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4992,
+                        "reward_output_token_count": 200,
+                        "reward_token_count": 5192,
+                        "input_token_count": 4992,
+                        "output_token_count": 200,
+                        "token_count": 5192
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 5248,
+                        "reward_output_token_count": 217,
+                        "reward_token_count": 5465,
+                        "input_token_count": 5248,
+                        "output_token_count": 217,
+                        "token_count": 5465
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 5494,
+                        "reward_output_token_count": 218,
+                        "reward_token_count": 5712,
+                        "input_token_count": 5494,
+                        "output_token_count": 218,
+                        "token_count": 5712
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 5813,
+                        "reward_output_token_count": 242,
+                        "reward_token_count": 6055,
+                        "input_token_count": 5813,
+                        "output_token_count": 242,
+                        "token_count": 6055
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 6138,
+                        "reward_output_token_count": 208,
+                        "reward_token_count": 6346,
+                        "input_token_count": 6138,
+                        "output_token_count": 208,
+                        "token_count": 6346
+                    }
+                ],
+                "steps_token_counts": 79644,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 76272,
+                "steps_reward_output_token_counts": 3372,
+                "steps_input_token_counts": 76272,
+                "steps_output_token_counts": 3372
+            }
+        },
+        {
+            "task_name": "Compare available plans for the AeroAPI on flightaware",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4585,
+                        "reward_output_token_count": 156,
+                        "reward_token_count": 4741,
+                        "input_token_count": 4585,
+                        "output_token_count": 156,
+                        "token_count": 4741
+                    }
+                ],
+                "steps_token_counts": 4741,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 4585,
+                "steps_reward_output_token_counts": 156,
+                "steps_input_token_counts": 4585,
+                "steps_output_token_counts": 156
+            }
+        },
+        {
+            "task_name": "Give a 10 rating to The Terminator II: Judgement Day on imdb",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 2214,
+                        "reward_output_token_count": 193,
+                        "reward_token_count": 2407,
+                        "input_token_count": 2214,
+                        "output_token_count": 193,
+                        "token_count": 2407
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 7125,
+                        "reward_output_token_count": 166,
+                        "reward_token_count": 7291,
+                        "input_token_count": 7125,
+                        "output_token_count": 166,
+                        "token_count": 7291
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 2897,
+                        "reward_output_token_count": 203,
+                        "reward_token_count": 3100,
+                        "input_token_count": 2897,
+                        "output_token_count": 203,
+                        "token_count": 3100
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 2714,
+                        "reward_output_token_count": 246,
+                        "reward_token_count": 2960,
+                        "input_token_count": 2714,
+                        "output_token_count": 246,
+                        "token_count": 2960
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 2921,
+                        "reward_output_token_count": 190,
+                        "reward_token_count": 3111,
+                        "input_token_count": 2921,
+                        "output_token_count": 190,
+                        "token_count": 3111
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3079,
+                        "reward_output_token_count": 235,
+                        "reward_token_count": 3314,
+                        "input_token_count": 3079,
+                        "output_token_count": 235,
+                        "token_count": 3314
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3298,
+                        "reward_output_token_count": 189,
+                        "reward_token_count": 3487,
+                        "input_token_count": 3298,
+                        "output_token_count": 189,
+                        "token_count": 3487
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3489,
+                        "reward_output_token_count": 206,
+                        "reward_token_count": 3695,
+                        "input_token_count": 3489,
+                        "output_token_count": 206,
+                        "token_count": 3695
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3594,
+                        "reward_output_token_count": 201,
+                        "reward_token_count": 3795,
+                        "input_token_count": 3594,
+                        "output_token_count": 201,
+                        "token_count": 3795
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3851,
+                        "reward_output_token_count": 184,
+                        "reward_token_count": 4035,
+                        "input_token_count": 3851,
+                        "output_token_count": 184,
+                        "token_count": 4035
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4056,
+                        "reward_output_token_count": 210,
+                        "reward_token_count": 4266,
+                        "input_token_count": 4056,
+                        "output_token_count": 210,
+                        "token_count": 4266
+                    }
+                ],
+                "steps_token_counts": 41461,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 39238,
+                "steps_reward_output_token_counts": 2223,
+                "steps_input_token_counts": 39238,
+                "steps_output_token_counts": 2223
+            }
+        },
+        {
+            "task_name": "Check the status of train S92 for any disruptions on new.mta.info.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        },
+        {
+            "task_name": "Check the status of your iPhone repair on apple.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3868,
+                        "reward_output_token_count": 196,
+                        "reward_token_count": 4064,
+                        "input_token_count": 3868,
+                        "output_token_count": 196,
+                        "token_count": 4064
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3859,
+                        "reward_output_token_count": 208,
+                        "reward_token_count": 4067,
+                        "input_token_count": 3859,
+                        "output_token_count": 208,
+                        "token_count": 4067
+                    }
+                ],
+                "steps_token_counts": 8131,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 7727,
+                "steps_reward_output_token_counts": 404,
+                "steps_input_token_counts": 7727,
+                "steps_output_token_counts": 404
+            }
+        },
+        {
+            "task_name": "Open the page with a overview about the submission of releases on discogs",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4861,
+                        "reward_output_token_count": 135,
+                        "reward_token_count": 4996,
+                        "input_token_count": 4861,
+                        "output_token_count": 135,
+                        "token_count": 4996
+                    }
+                ],
+                "steps_token_counts": 4996,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 4861,
+                "steps_reward_output_token_counts": 135,
+                "steps_input_token_counts": 4861,
+                "steps_output_token_counts": 135
+            }
+        },
+        {
+            "task_name": "View the latest job openings in safety with a salary above 100k per annum, check the details, and apply on mbta.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4409,
+                        "reward_output_token_count": 177,
+                        "reward_token_count": 4586,
+                        "input_token_count": 4409,
+                        "output_token_count": 177,
+                        "token_count": 4586
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3596,
+                        "reward_output_token_count": 191,
+                        "reward_token_count": 3787,
+                        "input_token_count": 3596,
+                        "output_token_count": 191,
+                        "token_count": 3787
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3825,
+                        "reward_output_token_count": 212,
+                        "reward_token_count": 4037,
+                        "input_token_count": 3825,
+                        "output_token_count": 212,
+                        "token_count": 4037
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4033,
+                        "reward_output_token_count": 219,
+                        "reward_token_count": 4252,
+                        "input_token_count": 4033,
+                        "output_token_count": 219,
+                        "token_count": 4252
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4330,
+                        "reward_output_token_count": 196,
+                        "reward_token_count": 4526,
+                        "input_token_count": 4330,
+                        "output_token_count": 196,
+                        "token_count": 4526
+                    }
+                ],
+                "steps_token_counts": 21188,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 20193,
+                "steps_reward_output_token_counts": 995,
+                "steps_input_token_counts": 20193,
+                "steps_output_token_counts": 995
+            }
+        },
+        {
+            "task_name": "Add a e-gift card to bag of $100 for recipient John and email address abc@test.com from buckeye.foobar@gmail.com with message gift card on underarmour",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 5374,
+                        "reward_output_token_count": 220,
+                        "reward_token_count": 5594,
+                        "input_token_count": 5374,
+                        "output_token_count": 220,
+                        "token_count": 5594
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3088,
+                        "reward_output_token_count": 195,
+                        "reward_token_count": 3283,
+                        "input_token_count": 3088,
+                        "output_token_count": 195,
+                        "token_count": 3283
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 6205,
+                        "reward_output_token_count": 233,
+                        "reward_token_count": 6438,
+                        "input_token_count": 6205,
+                        "output_token_count": 233,
+                        "token_count": 6438
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 1669,
+                        "reward_output_token_count": 255,
+                        "reward_token_count": 1924,
+                        "input_token_count": 1669,
+                        "output_token_count": 255,
+                        "token_count": 1924
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 1950,
+                        "reward_output_token_count": 259,
+                        "reward_token_count": 2209,
+                        "input_token_count": 1950,
+                        "output_token_count": 259,
+                        "token_count": 2209
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 6941,
+                        "reward_output_token_count": 212,
+                        "reward_token_count": 7153,
+                        "input_token_count": 6941,
+                        "output_token_count": 212,
+                        "token_count": 7153
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3297,
+                        "reward_output_token_count": 222,
+                        "reward_token_count": 3519,
+                        "input_token_count": 3297,
+                        "output_token_count": 222,
+                        "token_count": 3519
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3491,
+                        "reward_output_token_count": 202,
+                        "reward_token_count": 3693,
+                        "input_token_count": 3491,
+                        "output_token_count": 202,
+                        "token_count": 3693
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3695,
+                        "reward_output_token_count": 234,
+                        "reward_token_count": 3929,
+                        "input_token_count": 3695,
+                        "output_token_count": 234,
+                        "token_count": 3929
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3954,
+                        "reward_output_token_count": 212,
+                        "reward_token_count": 4166,
+                        "input_token_count": 3954,
+                        "output_token_count": 212,
+                        "token_count": 4166
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4213,
+                        "reward_output_token_count": 234,
+                        "reward_token_count": 4447,
+                        "input_token_count": 4213,
+                        "output_token_count": 234,
+                        "token_count": 4447
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4539,
+                        "reward_output_token_count": 264,
+                        "reward_token_count": 4803,
+                        "input_token_count": 4539,
+                        "output_token_count": 264,
+                        "token_count": 4803
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4846,
+                        "reward_output_token_count": 235,
+                        "reward_token_count": 5081,
+                        "input_token_count": 4846,
+                        "output_token_count": 235,
+                        "token_count": 5081
+                    }
+                ],
+                "steps_token_counts": 56239,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 53262,
+                "steps_reward_output_token_counts": 2977,
+                "steps_input_token_counts": 53262,
+                "steps_output_token_counts": 2977
+            }
+        },
+        {
+            "task_name": "Find a person by address Nice st - 1234, Good, FL on yellowpages",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 2002,
+                        "reward_output_token_count": 171,
+                        "reward_token_count": 2173,
+                        "input_token_count": 2002,
+                        "output_token_count": 171,
+                        "token_count": 2173
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 2232,
+                        "reward_output_token_count": 171,
+                        "reward_token_count": 2403,
+                        "input_token_count": 2232,
+                        "output_token_count": 171,
+                        "token_count": 2403
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 2402,
+                        "reward_output_token_count": 200,
+                        "reward_token_count": 2602,
+                        "input_token_count": 2402,
+                        "output_token_count": 200,
+                        "token_count": 2602
+                    }
+                ],
+                "steps_token_counts": 7178,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 6636,
+                "steps_reward_output_token_counts": 542,
+                "steps_input_token_counts": 6636,
+                "steps_output_token_counts": 542
+            }
+        },
+        {
+            "task_name": "Check my AMC gift card balance with gift card number 87654321 and pin number 9753 on amctheatres.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 2801,
+                        "reward_output_token_count": 156,
+                        "reward_token_count": 2957,
+                        "input_token_count": 2801,
+                        "output_token_count": 156,
+                        "token_count": 2957
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 1157,
+                        "reward_output_token_count": 175,
+                        "reward_token_count": 1332,
+                        "input_token_count": 1157,
+                        "output_token_count": 175,
+                        "token_count": 1332
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 1333,
+                        "reward_output_token_count": 205,
+                        "reward_token_count": 1538,
+                        "input_token_count": 1333,
+                        "output_token_count": 205,
+                        "token_count": 1538
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3143,
+                        "reward_output_token_count": 228,
+                        "reward_token_count": 3371,
+                        "input_token_count": 3143,
+                        "output_token_count": 228,
+                        "token_count": 3371
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 1711,
+                        "reward_output_token_count": 192,
+                        "reward_token_count": 1903,
+                        "input_token_count": 1711,
+                        "output_token_count": 192,
+                        "token_count": 1903
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3703,
+                        "reward_output_token_count": 166,
+                        "reward_token_count": 3869,
+                        "input_token_count": 3703,
+                        "output_token_count": 166,
+                        "token_count": 3869
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3889,
+                        "reward_output_token_count": 222,
+                        "reward_token_count": 4111,
+                        "input_token_count": 3889,
+                        "output_token_count": 222,
+                        "token_count": 4111
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4077,
+                        "reward_output_token_count": 215,
+                        "reward_token_count": 4292,
+                        "input_token_count": 4077,
+                        "output_token_count": 215,
+                        "token_count": 4292
+                    }
+                ],
+                "steps_token_counts": 23373,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 21814,
+                "steps_reward_output_token_counts": 1559,
+                "steps_input_token_counts": 21814,
+                "steps_output_token_counts": 1559
+            }
+        },
+        {
+            "task_name": "Get the lowest priced women's plus size one piece swimsuit in color black with customer rating of atleat 5 on kohls",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 8706,
+                        "reward_output_token_count": 192,
+                        "reward_token_count": 8898,
+                        "input_token_count": 8706,
+                        "output_token_count": 192,
+                        "token_count": 8898
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 1179,
+                        "reward_output_token_count": 191,
+                        "reward_token_count": 1370,
+                        "input_token_count": 1179,
+                        "output_token_count": 191,
+                        "token_count": 1370
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 15817,
+                        "reward_output_token_count": 211,
+                        "reward_token_count": 16028,
+                        "input_token_count": 15817,
+                        "output_token_count": 211,
+                        "token_count": 16028
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 16073,
+                        "reward_output_token_count": 212,
+                        "reward_token_count": 16285,
+                        "input_token_count": 16073,
+                        "output_token_count": 212,
+                        "token_count": 16285
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 16306,
+                        "reward_output_token_count": 202,
+                        "reward_token_count": 16508,
+                        "input_token_count": 16306,
+                        "output_token_count": 202,
+                        "token_count": 16508
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 16568,
+                        "reward_output_token_count": 235,
+                        "reward_token_count": 16803,
+                        "input_token_count": 16568,
+                        "output_token_count": 235,
+                        "token_count": 16803
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 75892,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 74649,
+                "steps_reward_output_token_counts": 1243,
+                "steps_input_token_counts": 74649,
+                "steps_output_token_counts": 1243
+            }
+        },
+        {
+            "task_name": "Find discussions of community and open one with most replies on flightaware.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        },
+        {
+            "task_name": "Find a 2022 Tesla Model 3 on carmax",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        },
+        {
+            "task_name": "Get the report from the final environmental impact statement for the Jamaica Bus Depot expansion on new.mta.info",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        },
+        {
+            "task_name": "Search for the lowest millage used Honda Crosstour 2012 to 2013 near 49102 less than $25000 on cargurus.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        },
+        {
+            "task_name": "Browse men's winter coats in size large that is on clearance on kohls.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        },
+        {
+            "task_name": "Find a walkthrough for the game \"The Legend of Zelda: Breath of the Wild\" on ign.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        },
+        {
+            "task_name": "Find an editor's choice review with a score of 10 in the boardgame category on ign",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        },
+        {
+            "task_name": "Sign up for a REI Co-Op membership on rei.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        },
+        {
+            "task_name": "Find the weight of baggage allowance for economy class on qatarairways",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        },
+        {
+            "task_name": "Find flights going from Indira Gandhi to Los Cabos on flightaware",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        },
+        {
+            "task_name": "Tell me information about what identification I need to bring on my trip on amtrak",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        },
+        {
+            "task_name": "Browse used Audi cars made before 2015 and sort by lowest price on kbb",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        },
+        {
+            "task_name": "Show crazy credits for the movie \" Prometheus\" on imdb",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        },
+        {
+            "task_name": "Add the first wireless headphones to your cart with a budget of $100 or less, that has an active noise-cancelling feature on amazon",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        },
+        {
+            "task_name": "Find Playstation 5 digital edition on gamestop.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        },
+        {
+            "task_name": "Browse Marriott Bonvoy credit cards on marriott",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        },
+        {
+            "task_name": "Show me the list of Men's Blazers, Black, Size M on uniqlo.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        },
+        {
+            "task_name": "Add formula 1 to my followed sports on foxsports",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        },
+        {
+            "task_name": "Show me the options for a roundtrip leaving from las vegas on flexile dates on the interactive map on united",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        },
+        {
+            "task_name": "Download the e-receipt with the last name Smith and confirmation number X123456989 on budget",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    }
+                ],
+                "steps_token_counts": 0,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 0,
+                "steps_reward_output_token_counts": 0,
+                "steps_input_token_counts": 0,
+                "steps_output_token_counts": 0
+            }
+        }
+    ],
+    "total_planning_input_tokens": 0,
+    "total_planning_output_tokens": 0,
+    "total_reward_input_tokens": 309237,
+    "total_reward_output_tokens": 13606,
+    "total_input_tokens": 309237,
+    "total_output_tokens": 13606,
+    "total_tokens": 322843
+}

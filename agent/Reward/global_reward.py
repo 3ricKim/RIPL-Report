@@ -102,6 +102,7 @@ class GlobalReward:
     ):
 
         gpt4v = GPTGenerator(model="gpt-4-turbo")
+        gemini = GeminiGenerator(model="gemini-1.5-flash")
 
         all_json_models = config["model"]["json_models"]
         is_json_response = config["model"]["json_model_response"]
@@ -109,7 +110,7 @@ class GlobalReward:
         llm_global_reward_text = create_llm_instance(
             model_name, is_json_response, all_json_models)
         
-        _, reward_response, reward_token_count = await InteractionMode(text_model=llm_global_reward_text, visual_model=gpt4v).get_global_reward(
+        _, reward_response, reward_token_count = await InteractionMode(text_model=llm_global_reward_text, visual_model=gemini).get_global_reward(
             user_request=user_request, previous_trace=previous_trace, observation=observation,
             current_info=current_info, ground_truth_mode=ground_truth_mode, global_reward_mode=global_reward_mode,
             ground_truth_data=ground_truth_data, task_name_id=task_name_id)
