@@ -33,7 +33,9 @@ class DomVisionPrompts:
                         [236] button 'See more'
                 ```
         **Vision Integration**:
-            Additionally, some messages may include Base64-encoded images representing screenshots of the current web page. When provided, these images offer visual context about the page's layout, styles, and dynamic elements. Use the information from these screenshots in conjunction with the accessibility tree to make more informed decisions and actions.
+            Additionally, some messages may include Base64-encoded images representing screenshots of the current web page. 
+            When provided, these images offer visual context about the page's layout, styles, and dynamic elements. 
+            Use the information from these screenshots in conjunction with the accessibility tree to make more informed decisions and actions.
 
         In this example, each row represents the characteristic representation of a web page element. It has three attributes: '[40]' for the element's element_id, 'link' indicates the element is a link, and 'About' for the content of the element.
         Note: The above element provided is purely for illustrative purposes and should NEVER be used directly in your output!         

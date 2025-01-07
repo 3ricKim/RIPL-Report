@@ -1,0 +1,218 @@
+{
+    "calls": [
+        {
+            "task_name": "Check the status of train S92 for any disruptions on new.mta.info.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 5100,
+                        "reward_output_token_count": 143,
+                        "reward_token_count": 5243,
+                        "input_token_count": 5100,
+                        "output_token_count": 143,
+                        "token_count": 5243
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 2843,
+                        "reward_output_token_count": 161,
+                        "reward_token_count": 3004,
+                        "input_token_count": 2843,
+                        "output_token_count": 161,
+                        "token_count": 3004
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3066,
+                        "reward_output_token_count": 130,
+                        "reward_token_count": 3196,
+                        "input_token_count": 3066,
+                        "output_token_count": 130,
+                        "token_count": 3196
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3104,
+                        "reward_output_token_count": 169,
+                        "reward_token_count": 3273,
+                        "input_token_count": 3104,
+                        "output_token_count": 169,
+                        "token_count": 3273
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3356,
+                        "reward_output_token_count": 170,
+                        "reward_token_count": 3526,
+                        "input_token_count": 3356,
+                        "output_token_count": 170,
+                        "token_count": 3526
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3421,
+                        "reward_output_token_count": 166,
+                        "reward_token_count": 3587,
+                        "input_token_count": 3421,
+                        "output_token_count": 166,
+                        "token_count": 3587
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3702,
+                        "reward_output_token_count": 172,
+                        "reward_token_count": 3874,
+                        "input_token_count": 3702,
+                        "output_token_count": 172,
+                        "token_count": 3874
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3883,
+                        "reward_output_token_count": 187,
+                        "reward_token_count": 4070,
+                        "input_token_count": 3883,
+                        "output_token_count": 187,
+                        "token_count": 4070
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3997,
+                        "reward_output_token_count": 165,
+                        "reward_token_count": 4162,
+                        "input_token_count": 3997,
+                        "output_token_count": 165,
+                        "token_count": 4162
+                    }
+                ],
+                "steps_token_counts": 33935,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 32472,
+                "steps_reward_output_token_counts": 1463,
+                "steps_input_token_counts": 32472,
+                "steps_output_token_counts": 1463
+            }
+        },
+        {
+            "task_name": "Check the status of your iPhone repair on apple.",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3893,
+                        "reward_output_token_count": 104,
+                        "reward_token_count": 3997,
+                        "input_token_count": 3893,
+                        "output_token_count": 104,
+                        "token_count": 3997
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 3827,
+                        "reward_output_token_count": 121,
+                        "reward_token_count": 3948,
+                        "input_token_count": 3827,
+                        "output_token_count": 121,
+                        "token_count": 3948
+                    }
+                ],
+                "steps_token_counts": 7945,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 7720,
+                "steps_reward_output_token_counts": 225,
+                "steps_input_token_counts": 7720,
+                "steps_output_token_counts": 225
+            }
+        },
+        {
+            "task_name": "Open the page with a overview about the submission of releases on discogs",
+            "step_tokens": {
+                "steps_tokens_record": [
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 0,
+                        "reward_output_token_count": 0,
+                        "reward_token_count": 0,
+                        "input_token_count": 0,
+                        "output_token_count": 0,
+                        "token_count": 0
+                    },
+                    {
+                        "planning_input_token_count": 0,
+                        "planning_output_token_count": 0,
+                        "planning_token_count": 0,
+                        "reward_input_token_count": 4786,
+                        "reward_output_token_count": 123,
+                        "reward_token_count": 4909,
+                        "input_token_count": 4786,
+                        "output_token_count": 123,
+                        "token_count": 4909
+                    }
+                ],
+                "steps_token_counts": 4909,
+                "steps_planning_input_token_counts": 0,
+                "steps_planning_output_token_counts": 0,
+                "steps_reward_input_token_counts": 4786,
+                "steps_reward_output_token_counts": 123,
+                "steps_input_token_counts": 4786,
+                "steps_output_token_counts": 123
+            }
+        }
+    ],
+    "total_planning_input_tokens": 0,
+    "total_planning_output_tokens": 0,
+    "total_reward_input_tokens": 44978,
+    "total_reward_output_tokens": 1811,
+    "total_input_tokens": 44978,
+    "total_output_tokens": 1811,
+    "total_tokens": 46789
+}
