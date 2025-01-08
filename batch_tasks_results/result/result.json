@@ -1,9 +1,0 @@
-{
-    "task_counts": 5,
-    "average_step_score_rate": 0.8333333333333333,
-    "average_efficiency_score": 4.166666666666666,
-    "usd_efficiency_score": 0.0,
-    "key_node_completion_rate": 0.8461538461538461,
-    "task_success_rate": 0.6,
-    "task_near_success_rate": 0.4
-}
